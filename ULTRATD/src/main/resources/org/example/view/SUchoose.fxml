@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.view.SUchooseController">
+  <children>
+    <MenuBar accessibleRole="BUTTON" VBox.vgrow="NEVER">
+      <menus>
+        <Menu mnemonicParsing="false" text="Choose">
+          <items>
+                  <Menu mnemonicParsing="false" text="Scenes">
+                    <items>
+                        <Menu mnemonicParsing="false" text="User">
+                           <items>
+                              <MenuItem mnemonicParsing="false" onAction="#Usenewbt" text="New" />
+                              <MenuItem mnemonicParsing="false" onAction="#Usesearchbt" text="Search" />
+                           </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Unit">
+                           <items>
+                              <MenuItem mnemonicParsing="false" onAction="#Uninewbt" text="New" />
+                              <MenuItem mnemonicParsing="false" onAction="#Unisearchbt" text="Search" />
+                           </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Faction">
+                           <items>
+                              <MenuItem mnemonicParsing="false" onAction="#Fnewbt" text="New" />
+                              <MenuItem mnemonicParsing="false" onAction="#Fsearchbt" text="Search" />
+                           </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Skill">
+                           <items>
+                              <MenuItem mnemonicParsing="false" onAction="#Snewbt" text="New" />
+                              <MenuItem mnemonicParsing="false" onAction="#Ssearchbt" text="Search" />
+                           </items>
+                        </Menu>
+                    </items>
+                  </Menu>
+                  <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" onAction="#Quitbt" text="Quit" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#AUTDbt" text="AboutUTD" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" style="-fx-background-color: black;" VBox.vgrow="ALWAYS" />
+  </children>
+</VBox>

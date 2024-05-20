@@ -1,0 +1,33 @@
+
+Â
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿJ$399b63f3-2bed-4f6a-995f-84e092a9f989
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ù—ÔÄJ$4140aa06-120d-4ee7-b3c3-8e1a305cc284
+†
+java:S1124 "EReorder the modifiers to comply with the Java Language Specification.(§“’şÿÿÿÿJ$e8edf631-cbdb-4b89-8ddd-fe6695458280
+
+java:S1124!"EReorder the modifiers to comply with the Java Language Specification.(àò±„J$ab0c10d7-4bd4-4ecb-a5aa-e437683de4a1
+†
+java:S1124""EReorder the modifiers to comply with the Java Language Specification.(¡ƒìøÿÿÿÿJ$def193bd-517b-4903-997b-7d3f3b4151ae
+ˆ
+java:S1124#"EReorder the modifiers to comply with the Java Language Specification.(£Ş×8›úåŞ÷1J$5dc4e2ee-0735-4e76-9e2a-0d93a84b73a2
+†
+java:S1124$"EReorder the modifiers to comply with the Java Language Specification.(·­’¾ıÿÿÿÿJ$82419154-645d-4ae2-9558-b239bc7fd32f
+l
+java:S2695F"+This "PreparedStatement" has no parameters.(—¦¡ÅøÿÿÿÿJ$270a5800-02f5-4f27-af4e-21696c61f368
+}
+java:S1128"5Remove this unused import 'javafx.event.ActionEvent'.(î•¯¼ıÿÿÿÿ8·úåŞ÷1J$6b911f8c-f321-4bf4-a0d2-e721eebdaa5f
+u
+java:S1128"-Remove this unused import 'javafx.fxml.FXML'.(ÃÚ¢„şÿÿÿÿ8¸úåŞ÷1J$1c6cdc22-5867-4773-b37a-d140b15d6d58
+~
+java:S1128";Remove this unused import 'javafx.scene.control.TextField'.(¨¢¤¶8¹úåŞ÷1J$0adf088c-4645-43a7-964d-ebae82f520b2
+v
+java:S1128":Remove this unused import 'org.example.model.entity.User'.(´ç°J$de45160d-633c-4acc-8e36-80f38d1b1951
+k
+java:S1068 "*Remove this unused "UPDATE" private field.(§“’şÿÿÿÿJ$2e263908-2da0-4d38-8c85-042b08404db1
+o
+java:S1068"".Remove this unused "FINDBYNAME" private field.(¡ƒìøÿÿÿÿJ$64da55ba-47dc-4e16-b28a-635907448def
+o
+java:S1068#",Remove this unused "FINDBYID" private field.(£Ş×8½úåŞ÷1J$709869f8-83f7-4fa5-bc4b-36d15607712e
+k
+java:S1068$"*Remove this unused "DELETE" private field.(·­’¾ıÿÿÿÿJ$fde7afae-e112-4985-ae65-6a4c22c6d866

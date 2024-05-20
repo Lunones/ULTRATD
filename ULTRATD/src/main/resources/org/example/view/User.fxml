@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.view.UserController">
+   <children>
+      <TextField fx:id="txtID" layoutX="141.0" layoutY="78.0" prefHeight="26.0" prefWidth="79.0" promptText="ID" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#Backbt" text="BACK" />
+      <TextField fx:id="txtpass" layoutX="364.0" layoutY="187.0" prefHeight="26.0" prefWidth="108.0" promptText="Password" />
+      <TextField fx:id="txtLVL" layoutX="398.0" layoutY="78.0" prefHeight="26.0" prefWidth="44.0" promptText="LVL" />
+      <TextField fx:id="txtuser" layoutX="141.0" layoutY="187.0" prefHeight="26.0" prefWidth="108.0" promptText="Username" />
+      <Button fx:id="Save" layoutX="278.0" layoutY="253.0" mnemonicParsing="false" onAction="#Savebt" text="SAVE" />
+      <Label fx:id="lblid" layoutX="175.0" layoutY="40.0" text="ID" textFill="WHITE" />
+      <Label fx:id="lbllvl" layoutX="410.0" layoutY="40.0" text="LVL" textFill="WHITE" />
+      <Label layoutX="290.0" layoutY="40.0" text="Faction" textFill="WHITE" />
+      <Label layoutX="168.0" layoutY="149.0" text="Username" textFill="WHITE" />
+      <Label layoutX="393.0" layoutY="149.0" text="Password" textFill="WHITE" />
+      <Button fx:id="Modify" layoutX="175.0" layoutY="253.0" mnemonicParsing="false" onAction="#Modifybt" text="MODIFY" />
+      <Button fx:id="Delete" layoutX="364.0" layoutY="253.0" mnemonicParsing="false" onAction="#Deletebt" text="DELETE" />
+      <ComboBox fx:id="ListFaction" layoutX="256.0" layoutY="78.0" onAction="#idfactCombobox" prefHeight="26.0" prefWidth="108.0" promptText="Factions" />
+      <TextField fx:id="txtfaction" layoutX="256.0" layoutY="79.0" prefHeight="25.0" prefWidth="108.0" />
+   </children>
+</AnchorPane>

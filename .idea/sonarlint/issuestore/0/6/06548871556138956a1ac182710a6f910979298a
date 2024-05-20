@@ -1,0 +1,25 @@
+
+–	java:S116"TRename this field "Collectbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…Â‹–8ƒÆéà÷1J$d7984845-e6e2-4763-91a9-741a895a6962
+–	java:S116!"TRename this field "Creditsbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Õ¯ü8ƒÆéà÷1J$2f2313b8-271c-4c9f-b4b3-904c4611e685
+–	java:S116$"TRename this field "Optionsbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²šà×8„Æéà÷1J$4ad9de26-388a-4ad3-94a3-4af8cdfad644
+–	java:S116'"TRename this field "Pthgamebt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤üŸğ8„Æéà÷1J$09550a7e-4824-45af-86c7-5d96d8dd1741
+Â
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿJ$7c80418d-4f68-4d5a-af2e-48b9130c72cb
+Â
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®ÒêúÿÿÿÿJ$4c307d3a-f0ff-4caa-80c7-eed96f64aa54
+Ã
+java:S1186*"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ß·g8†Æéà÷1J$b472a675-50f2-4e55-94f7-7bd974dd9575
+É
+java:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(°œ…šÿÿÿÿÿ8†Æéà÷1J$721d464b-d1fa-465f-9a87-ef59c8013c37
+É
+java:S11864"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(áêÚ¤ùÿÿÿÿ8†Æéà÷1J$0471ba76-e303-4d7d-8af3-3675b019981a
+É
+java:S11869"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íÅ‹Åùÿÿÿÿ8†Æéà÷1J$2a96d5c5-347a-4b24-852e-f83488215872
+•
+java:S1450"YRemove the "controller" field and declare it as a local variable in the relevant methods.(ğœû¸J$d11d04f6-5e63-4acc-afd2-1e716e769805
+	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß·g8Æéà÷1J$bc27239f-130f-4937-8e35-7d26bca505a6
+•	java:S100/"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°œ…šÿÿÿÿÿ8Æéà÷1J$c82f50f3-a4cf-4e8d-a735-3b749433231c
+•	java:S1004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áêÚ¤ùÿÿÿÿ8Æéà÷1J$c38dc0f3-b8a8-4ba6-9d58-e6d028313716
+•	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÅ‹Åùÿÿÿÿ8Æéà÷1J$2fc7c1e1-ecc3-4fc9-8cfc-0883476eda43
+j
+java:S1068".Remove this unused "controller" private field.(ğœû¸J$d5b30ec7-ccb5-486e-973a-01158471a800

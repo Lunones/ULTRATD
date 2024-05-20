@@ -1,0 +1,17 @@
+
+
+java:S1104"QMake stage a static final constant or non-public and provide accessors if needed.(œ‰àJ$e70d2c36-c832-4143-b2b9-4d9fe9d990f6
+
+java:S1104"]Make currentController a static final constant or non-public and provide accessors if needed.(‡®œ‹ıÿÿÿÿJ$304f0d78-5a4b-4f4f-a3e0-642d8c6c1068
+g
+java:S1444"+Make this "public static stage" field final(œ‰àJ$18d03803-6bda-4151-8fbe-e5f8499d03ef
+x
+java:S1444"7Make this "public static currentController" field final(‡®œ‹ıÿÿÿÿJ$9b822d04-65a8-4165-a9fa-fbbe4fed6b6b
+Â
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÑëËÿÿÿÿÿJ$3db972ba-7712-4871-a9e2-8fdc36528799
+]	java:S125"<This block of commented-out lines of code should be removed.(˜õ¦ùÿÿÿÿ8±…İØ÷1
+r
+java:S2696"6Make the enclosing method "static" or remove this set.(ÕãÏ³J$e3c8623f-c059-447f-a568-5aa1c957e6ec
+w
+java:S2696"6Make the enclosing method "static" or remove this set.(‚õ“ŒşÿÿÿÿJ$085fb400-1745-4290-9c73-6a4dbbe0783a
+e	java:S119'"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(ö™¤¿8»…İØ÷1

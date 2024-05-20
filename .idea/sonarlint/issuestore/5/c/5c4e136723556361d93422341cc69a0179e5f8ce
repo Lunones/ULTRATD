@@ -1,0 +1,14 @@
+
+~
+java:S1104"\Make centerController a static final constant or non-public and provide accessors if needed.(•Ž›Ìûÿÿÿÿ8ÿ„ÝØ÷1
+£
+java:S11867"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛŒ¦…ýÿÿÿÿ8–¢óŠö1
+]	java:S125"<This block of commented-out lines of code should be removed.(ðäòþúÿÿÿÿ8Š…ÝØ÷1
+X	java:S125""<This block of commented-out lines of code should be removed.(•µ‘Á8Ž…ÝØ÷1
+L	java:S106="+Replace this use of System.out by a logger.(ÞÆ­Ûþÿÿÿÿ8«¢óŠö1
+L
+java:S1128"/Remove this unused import 'javafx.scene.Scene'.(Õü²8çØíà÷1
+T
+java:S1128"2Remove this unused import 'javafx.stage.Modality'.(£†üÐüÿÿÿÿ8çØíà÷1
+Q
+java:S1128	"/Remove this unused import 'javafx.stage.Stage'.(æÄ¸²úÿÿÿÿ8çØíà÷1

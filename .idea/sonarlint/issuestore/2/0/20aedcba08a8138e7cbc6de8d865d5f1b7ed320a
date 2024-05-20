@@ -1,0 +1,32 @@
+
+“	java:S117s"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øî²ı8¸„İØ÷1J$0433caa3-f953-452f-8f29-67a54705f6c8
+
+java:S1104"VMake controller a static final constant or non-public and provide accessors if needed.(›‡ú¬ûÿÿÿÿ8¹„İØ÷1J$78991b58-5c3b-4714-8327-dca9c77eb4b7
+Ÿ
+java:S1104"WMake controller1 a static final constant or non-public and provide accessors if needed.(¢Ÿ•ıÿÿÿÿ8º„İØ÷1J$4c706127-f61e-4ca0-8550-1be088134d06
+É
+java:S1186*"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿ8ˆ˜–Šö1J$53890d41-62cb-4198-8e53-18cfd1be3234
+Ä
+java:S11862"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷’²É8Å„İØ÷1J$8bce3f04-4a08-45db-acdb-156a0dfae7e3
+É
+java:S11867"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®Òêúÿÿÿÿ8ˆ˜–Šö1J$f6358296-6201-47bc-b868-490de501ce8f
+“
+java:S1450"QRemove the "us" field and declare it as a local variable in the relevant methods.(“Ñàh8É„İØ÷1J$b6d31c09-6357-408e-8bef-a1a02c07c794
+~	java:S125"<This block of commented-out lines of code should be removed.(“ƒˆ¬8Ï„İØ÷1J$ec4b224e-b373-499e-a6a3-0bb318d42aae
+	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öäĞ8ëª‰ß÷1J$46c7249f-94bc-4e56-ad97-e74ffa53655f
+	java:S100C"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓùÚ`8Ô„İØ÷1J$4594025b-ab17-4b7e-b06c-866c48f67ca8
+	java:S100T"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üˆùâ8şª‰ß÷1J$f66b3340-1756-499b-b88f-55fdc05fc67f
+ƒ	java:S125b"<This block of commented-out lines of code should be removed.(õÖ¹˜ıÿÿÿÿ8ä„İØ÷1J$25cc31d0-c38b-45aa-b577-b612179e803f
+€
+java:S1854h"8Remove this useless assignment to local variable "view".(ÛÅ£·şÿÿÿÿ8å„İØ÷1J$dbb17f56-0afd-4c0f-b320-d9e58c746549
+s
+java:S1172g"+Remove this unused method parameter "data".(Šâˆèûÿÿÿÿ8«‰ß÷1J$0de1927b-f371-49d6-bb87-7291e4ca6416
+q
+java:S1481h")Remove this unused "view" local variable.(ÛÅ£·şÿÿÿÿ8ç„İØ÷1J$c7be59a0-3424-48c7-a4a3-574a2bb25685
+ƒ	java:S125i"<This block of commented-out lines of code should be removed.(Ëİç…ùÿÿÿÿ8è„İØ÷1J$503d2e44-102c-4567-a1c3-a2c3248ab957
+k
+java:S1172m"(Remove this unused method parameter "o".(„–ó€8¦«‰ß÷1J$3c10f704-af5a-49c7-9a95-14a360d10d38
+r
+java:S1128"/Remove this unused import 'javafx.event.Event'.(ô”áñ8¯«‰ß÷1J$9321e998-59b2-4480-bd24-a3723e9a7d04
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8°«‰ß÷1J$6aca30f6-f6fd-4fe6-b785-2eef42d5c67a

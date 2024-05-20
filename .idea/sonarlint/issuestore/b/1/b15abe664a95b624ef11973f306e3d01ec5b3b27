@@ -1,0 +1,33 @@
+
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ñ¨¬ñıÿÿÿÿ
+Z
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(˜ºÖ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÔÇ€­
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ø”›Ñøÿÿÿÿ
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(½¡ª»
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¬»ï´
+V	java:S125)"<This block of commented-out lines of code should be removed.(ŒÂØœûÿÿÿÿ
+V	java:S1250"<This block of commented-out lines of code should be removed.(ş‹Õæùÿÿÿÿ
+V	java:S1259"<This block of commented-out lines of code should be removed.(àŸ˜ıÿÿÿÿ
+V	java:S125g"<This block of commented-out lines of code should be removed.(„âõØûÿÿÿÿ
+V	java:S125|"<This block of commented-out lines of code should be removed.(÷‡ú±øÿÿÿÿ
+W	java:S125“"<This block of commented-out lines of code should be removed.(Ì¡•ñüÿÿÿÿ
+B
+java:S1168¥"+Return an empty collection instead of null.(¥¹ï
+S
+java:S1128"=Remove this unused import 'org.example.model.entity.Faction'.(–ğôõ
+F
+java:S1128	"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+?
+java:S1068"*Remove this unused "UPDATE" private field.(˜ºÖ
+A
+java:S1068"+Remove this unused "FINDALL" private field.(ÔÇ€­
+@
+java:S1068"*Remove this unused "DELETE" private field.(¬»ï´
