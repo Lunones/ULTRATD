@@ -1,0 +1,29 @@
+
+Ê
+java:S1186…"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8½äÇ¸õ1J$fb7a1e8b-fda9-4ff5-b2bb-415b7b8bbe03
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ñ¨¬ñıÿÿÿÿ8ÃäÇ¸õ1J$7982b737-825f-40f5-aedf-2e9fa5ce8653
+‡
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(˜ºÖ8ÃäÇ¸õ1J$4e1be216-207d-4015-8027-1e26caa6800e
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÔÇ€­8ÃäÇ¸õ1J$e80855d3-fde5-45b9-bff7-11db6c83c470
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ø”›Ñøÿÿÿÿ8ÄäÇ¸õ1J$7d9443aa-8a8f-470b-bff3-58941ea062d9
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(şÇ­µúÿÿÿÿ8ÄäÇ¸õ1J$48cf6b58-d21c-47e3-b99b-6c3b48b9a01f
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¬»ï´8ÄäÇ¸õ1J$0b156c14-b36b-4ad2-a16c-09a64b8b842c
+ƒ	java:S125("<This block of commented-out lines of code should be removed.(ŒÂØœûÿÿÿÿ8ú¶É¸õ1J$e931c762-31aa-4bb3-9a98-36a665c2f7d3
+ƒ	java:S125/"<This block of commented-out lines of code should be removed.(ş‹Õæùÿÿÿÿ8ĞäÇ¸õ1J$3ed3fee4-57b3-4b06-8985-98efc132880a
+ƒ	java:S1258"<This block of commented-out lines of code should be removed.(àŸ˜ıÿÿÿÿ8ÒäÇ¸õ1J$74577522-a565-4da2-8752-33ae10ce6559
+ƒ	java:S125f"<This block of commented-out lines of code should be removed.(„âõØûÿÿÿÿ8ÖäÇ¸õ1J$3aac1e6c-41f2-4484-9072-fa32f898dab9
+ƒ	java:S125y"<This block of commented-out lines of code should be removed.(÷‡ú±øÿÿÿÿ8ÛäÇ¸õ1J$341cdc43-ee38-46b6-9e99-a4dd58129d67
+„	java:S125‹"<This block of commented-out lines of code should be removed.(Ì¡•ñüÿÿÿÿ8İäÇ¸õ1J$2485b2a8-6117-4424-aa85-4f939531a0ab
+l
+java:S1068"*Remove this unused "UPDATE" private field.(˜ºÖ8áäÇ¸õ1J$5c342da5-6c8f-4007-80f6-882004fe0b38
+n
+java:S1068"+Remove this unused "FINDALL" private field.(ÔÇ€­8áäÇ¸õ1J$1b5dc931-7148-416e-ae4f-26e232e61a32
+v
+java:S1068".Remove this unused "FINDBYNAME" private field.(şÇ­µúÿÿÿÿ8âäÇ¸õ1J$96eae71b-970a-4f56-9b5f-6057ad4ae444
+m
+java:S1068"*Remove this unused "DELETE" private field.(¬»ï´8âäÇ¸õ1J$e0adefe7-a0b5-40c2-a48c-f81a8e553030

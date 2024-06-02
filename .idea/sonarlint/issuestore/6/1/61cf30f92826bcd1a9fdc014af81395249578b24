@@ -1,0 +1,12 @@
+
+m
+java:S1192S"RDefine a constant instead of duplicating this literal "Invalid ID format" 3 times.(÷ÈÏ¡şÿÿÿÿ
+m	java:S116;"SRename this field "Deletebt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÅÇÏøÿÿÿÿ
+m	java:S116;"SRename this field "NFBackbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÅÇÏøÿÿÿÿ
+m	java:S116;"SRename this field "Modifybt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÅÇÏøÿÿÿÿ
+j	java:S116;"PRename this field "Newbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÅÇÏøÿÿÿÿ
+k	java:S116;"QRename this field "Savebt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÅÇÏøÿÿÿÿ
+`
+java:S1659;"EDeclare "NFBackbt" and all following declarations on a separate line.(ãÅÇÏøÿÿÿÿ
+<
+java:S1659>"&Declare "txtnamef" on a separate line.(ÕÏ

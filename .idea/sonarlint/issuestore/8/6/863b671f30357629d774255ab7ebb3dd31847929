@@ -1,0 +1,21 @@
+
+
+java:S1192N"LDefine a constant instead of duplicating this literal "description" 3 times.(™Α°¬όÿÿÿÿJ$a41e5e2c-4e53-4516-8709-e6ebc72822c1
+Γ
+java:S2681!"†This line will not be executed conditionally; only the first line of this 3-line block will be. The rest will execute unconditionally.(Η§†½J$e1cd97b5-ba5d-4caa-94c8-32ef5cc53d60
+Β
+java:S1186x"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ζΤ«χώÿÿÿÿJ$3a22eb8f-344d-419b-9129-45cb7ba371f6
+†
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ο‚ΈλύÿÿÿÿJ$bd596d97-8717-4f08-a26d-ea58d45365a7
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(‰ J$e9ab8643-ec3d-4285-b963-ac7b1eea31e7
+†
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Χ§£ωÿÿÿÿJ$4d918e8d-8cd9-4b70-91f6-5db72e8a0909
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(χ¬ήΧJ$9c39e87e-dc31-4698-b4c6-b551bd84fa5f
+†
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(‰ΈϊέÿÿÿÿÿJ$aed884f3-a41a-46d6-8c24-5343b5f259e1
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ϋÿς¥J$9d7e821a-9d72-433d-b3ea-7b3092540ef8
+Z
+java:S1128"=Remove this unused import 'org.example.model.entity.Faction'.(–πτυ8Χωνό1

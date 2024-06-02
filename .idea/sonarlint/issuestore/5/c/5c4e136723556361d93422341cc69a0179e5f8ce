@@ -1,0 +1,9 @@
+
+m	java:S117)"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øî²ı8¿öğìü1
+~
+java:S1104"\Make centerController a static final constant or non-public and provide accessors if needed.(•›Ìûÿÿÿÿ8ÿ„İØ÷1
+£
+java:S11865"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛŒ¦…ıÿÿÿÿ8–¢óŠö1
+J
+java:S1172#"(Remove this unused method parameter "o".(Ü§ôËûÿÿÿÿ8Õöğìü1
+L	java:S106:"+Replace this use of System.out by a logger.(ŞÆ­Ûşÿÿÿÿ8«¢óŠö1

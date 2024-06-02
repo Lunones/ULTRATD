@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="224.0" layoutY="126.0" prefHeight="254.0" prefWidth="153.0" style="-fx-background-color: EAAE1A; -fx-border-color: white;">
+         <columns>
+            <TableColumn id="id" prefWidth="75.0" style="-fx-background-color: lightgray;" text="ID" />
+            <TableColumn prefWidth="75.0" style="-fx-background-color: lightgray;" text="Description" />
+         </columns>
+      </TableView>
+      <Button fx:id="Newbt" layoutX="123.0" layoutY="126.0" mnemonicParsing="false" onAction="#New" prefHeight="27.0" prefWidth="59.0" text="NEW">
+         <font>
+            <Font name="VCR OSD Mono" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="Savebt" layoutX="123.0" layoutY="228.0" mnemonicParsing="false" onAction="#Save" prefHeight="27.0" prefWidth="59.0" text="SAVE">
+         <font>
+            <Font name="VCR OSD Mono" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="Modifybt" layoutX="419.0" layoutY="126.0" mnemonicParsing="false" onAction="#Modify" prefHeight="27.0" prefWidth="59.0" text="MODIFY">
+         <font>
+            <Font name="VCR OSD Mono" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="Deletebt" layoutX="419.0" layoutY="228.0" mnemonicParsing="false" onAction="#Delete" prefHeight="27.0" prefWidth="59.0" text="DELETE" textFill="#f41010">
+         <font>
+            <Font name="VCR OSD Mono" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="264.0" layoutY="65.0" text="FACTION" textFill="WHITE">
+         <font>
+            <Font name="VCR OSD Mono" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="NFBackbt" layoutX="26.0" layoutY="24.0" mnemonicParsing="false" onAction="#Backbt" prefHeight="27.0" prefWidth="59.0" text="BACK">
+         <font>
+            <Font name="VCR OSD Mono" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

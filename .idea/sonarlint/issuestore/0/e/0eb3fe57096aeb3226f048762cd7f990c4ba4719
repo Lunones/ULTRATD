@@ -1,0 +1,7 @@
+
+h	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø©‰¬ýÿÿÿÿ
+‡
+java:S1130!"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Ø©‰¬ýÿÿÿÿ
+h	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶¸¼Óþÿÿÿÿ
+K
+java:S1068".Remove this unused "controller" private field.(ðœû¸8›÷ðìü1
