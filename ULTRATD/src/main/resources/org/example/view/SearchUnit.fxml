@@ -27,5 +27,10 @@
             <Font name="VCR OSD Mono" size="24.0" />
          </font>
       </Label>
+      <Button fx:id="FAUN" layoutX="256.0" layoutY="261.0" mnemonicParsing="false" onAction="#FindAUN" text="Search All">
+         <font>
+            <Font name="VCR OSD Mono" size="12.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

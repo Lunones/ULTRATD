@@ -13,17 +13,23 @@ public class Unit {
 
     private String type;
 
-    private int id_skill;
+    private User user;
 
-    private int id_user;
+    private Skill skill;
+
+
+    //NOOO
+    //private int id_skill;
+    // private int id_user;
+
     public Unit(){
         this.id = 0;
         this.description = "";
         this.atk = 0;
         this.hp = 0;
         this.type = "";
-        this.id_skill = 0;
-        this.id_user = 0;
+        this.skill = null;
+        this.user = null;
     }
 
     public Unit(int id, String description, int atk, int hp, String type, int id_skill, int id_user) {
@@ -32,8 +38,8 @@ public class Unit {
         this.atk = atk;
         this.hp = hp;
         this.type = type;
-        this.id_skill = id_skill;
-        this.id_user = id_user;
+        this.skill = skill;
+        this.user = user;
     }
 
     public Unit(String description, int atk, int hp, String type, int id_skill, int id_user) {
@@ -41,8 +47,8 @@ public class Unit {
         this.atk = atk;
         this.hp = hp;
         this.type = type;
-        this.id_skill = id_skill;
-        this.id_user = id_user;
+        this.skill = skill;
+        this.user = user;
     }
 
     public Unit(int id, String description, int atk, int hp, String type) {
@@ -55,14 +61,6 @@ public class Unit {
 
     public Unit(int id) {
         this.id = id;
-    }
-
-    public int getId_user() {
-        return id_user;
-    }
-
-    public void setId_user(int id_user) {
-        this.id_user = id_user;
     }
 
     public int getId() {
@@ -105,11 +103,19 @@ public class Unit {
         this.type = type;
     }
 
-    public int getId_skill() {
-        return id_skill;
+    public User getUser() {
+        return user;
     }
 
-    public void setId_skill(int id_skill) {
-        this.id_skill = id_skill;
+    public void setUser(User user) {
+        this.user = user;
+    }
+
+    public Skill getSkill() {
+        return skill;
+    }
+
+    public void setSkill(Skill skill) {
+        this.skill = skill;
     }
 }

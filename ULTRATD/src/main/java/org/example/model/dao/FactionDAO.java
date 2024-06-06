@@ -14,6 +14,7 @@ public class FactionDAO implements DAO<Faction, String> {
     private final static String INSERT = "INSERT INTO Faction (name) VALUES (?)";
     private final static String UPDATE = "UPDATE Faction SET name=? WHERE id=?";
     private final static String FINDALL = "SELECT name FROM Faction";
+    private final static String FINDALLTABLE = "SELECT id, name FROM Faction";
     private final static String FINDBYNAME = "SELECT a.id, a.name FROM Faction AS a WHERE a.name=?";
     private final static String FINDBYID = "SELECT a.id, a.name FROM Faction AS a WHERE a.id=?";
     private final static String DELETE = "DELETE FROM Faction WHERE id=?";
@@ -105,6 +106,23 @@ public class FactionDAO implements DAO<Faction, String> {
             try (ResultSet res = pst.executeQuery()) {
                 while (res.next()) {
                     result.add(res.getString("name"));
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
+
+    public List<Faction> findAllTable() {
+        List<Faction> result = new ArrayList<>();
+        try (PreparedStatement pst = conn.prepareStatement(FINDALLTABLE)) {
+            try (ResultSet res = pst.executeQuery()) {
+                while (res.next()) {
+                    Faction f = new Faction();
+                    f.setId(res.getInt("id"));
+                    f.setName(res.getString("name"));
+                    result.add(f);
                 }
             }
         } catch (SQLException e) {

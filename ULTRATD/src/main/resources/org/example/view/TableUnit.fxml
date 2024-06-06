@@ -7,17 +7,17 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.view.TableUnitController">
    <children>
-      <TableView layoutX="35.0" layoutY="117.0" prefHeight="262.0" prefWidth="530.0" style="-fx-background-color: EAAE1A; -fx-border-color: white;">
+      <TableView fx:id="TableViewUnit" layoutX="35.0" layoutY="117.0" prefHeight="262.0" prefWidth="530.0" style="-fx-background-color: EAAE1A; -fx-border-color: white;">
         <columns>
-          <TableColumn id="id" prefWidth="75.0" style="-fx-background-color: lightgray;" text="ID" />
-          <TableColumn prefWidth="75.0" style="-fx-background-color: lightgray;" text="Description" />
-            <TableColumn prefWidth="75.0" style="-fx-background-color: lightgray;" text="ATK" />
-            <TableColumn prefWidth="75.0" style="-fx-background-color: lightgray;" text="HP" />
-            <TableColumn prefWidth="75.0" style="-fx-background-color: lightgray;" text="Type" />
-            <TableColumn prefWidth="75.0" style="-fx-background-color: lightgray;" text="id_Skill" />
-            <TableColumn prefWidth="75.0" style="-fx-background-color: lightgray;" text="id_User" />
+          <TableColumn id="id" fx:id="IdUN" prefWidth="75.0" style="-fx-background-color: lightgray;" text="ID" />
+          <TableColumn fx:id="DescUN" prefWidth="75.0" style="-fx-background-color: lightgray;" text="Description" />
+            <TableColumn fx:id="ATK" prefWidth="75.0" style="-fx-background-color: lightgray;" text="ATK" />
+            <TableColumn fx:id="HP" prefWidth="75.0" style="-fx-background-color: lightgray;" text="HP" />
+            <TableColumn fx:id="Type" prefWidth="75.0" style="-fx-background-color: lightgray;" text="Type" />
+            <TableColumn fx:id="Id_skill" prefWidth="75.0" style="-fx-background-color: lightgray;" text="id_Skill" />
+            <TableColumn fx:id="Id_user" prefWidth="75.0" style="-fx-background-color: lightgray;" text="id_User" />
         </columns>
       </TableView>
       <Label layoutX="279.0" layoutY="51.0" text="UNIT" textFill="WHITE">
@@ -35,7 +35,7 @@
             <Font name="VCR OSD Mono" size="14.0" />
          </font>
       </Button>
-      <Button fx:id="ModifyUn" layoutX="146.0" layoutY="75.0" mnemonicParsing="false" onAction="#Modifybt" text="MODIFY">
+      <Button fx:id="ModifyUn" layoutX="162.0" layoutY="75.0" mnemonicParsing="false" onAction="#Modifybt" text="MODIFY">
          <font>
             <Font name="VCR OSD Mono" size="14.0" />
          </font>
@@ -45,7 +45,7 @@
             <Font name="VCR OSD Mono" size="14.0" />
          </font>
       </Button>
-      <Button fx:id="NewUn" layoutX="66.0" layoutY="75.0" mnemonicParsing="false" onAction="#Newbt" text="NEW">
+      <Button fx:id="NewUn" layoutX="82.0" layoutY="75.0" mnemonicParsing="false" onAction="#Newbt" text="NEW">
          <font>
             <Font name="VCR OSD Mono" size="14.0" />
          </font>

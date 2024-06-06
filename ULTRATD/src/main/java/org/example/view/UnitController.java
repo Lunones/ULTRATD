@@ -56,8 +56,8 @@ public class UnitController extends Controller implements Initializable {
             txtskill.setVisible(false);
         } else {
             // If unit exists (editing existing unit)
-            String nameus = UserDAO.build().findById(un.getId_user()).getName();
-            String nameski = SkillDAO.build().findById(un.getId_skill()).getDescription();
+            String nameus = un.getUser().getName();
+            String nameski = un.getSkill().getDescription();
             txtIDu.setEditable(false);
             txtuser.setEditable(false);
             txtskill.setEditable(false);

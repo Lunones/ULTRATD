@@ -3,6 +3,7 @@ package org.example.model.dao;
 import org.example.model.connection.DBconnection;
 import org.example.model.entity.Faction;
 import org.example.model.entity.Skill;
+import org.example.model.entity.User;
 
 import java.io.IOException;
 import java.sql.*;
@@ -14,6 +15,7 @@ public class SkillDAO implements DAO<Skill, String> {
     private final static String INSERT="INSERT INTO Skill (description) VALUES (?)";
     private final static String UPDATE="UPDATE Skill SET description=? WHERE id=?";
     private final static String FINDALL="SELECT description FROM Skill";
+    private final static String FINDALLTABLE = "SELECT id, description FROM Skill";
     private final static String FINDBYNAME="SELECT a.id, a.description FROM Skill AS a WHERE a.description=?";
     private final static String FINDBYID="SELECT a.id, a.description FROM Skill AS a WHERE a.id=?";
     private final static String DELETE="DELETE FROM Skill WHERE id=?";
@@ -99,6 +101,22 @@ public class SkillDAO implements DAO<Skill, String> {
         }
         return result;
     }
+    public List<Skill> findAllTable() {
+        List<Skill> result = new ArrayList<>();
+        try (PreparedStatement pst = conn.prepareStatement(FINDALLTABLE)) {
+            try (ResultSet res = pst.executeQuery()) {
+                while (res.next()) {
+                    Skill s = new Skill();
+                    s.setId(res.getInt("id"));
+                    s.setDescription(res.getString("description"));
+                    result.add(s);
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
     @Override
     public List<String> findAll() {
         List<String> result = new ArrayList<>();
@@ -121,4 +139,13 @@ public class SkillDAO implements DAO<Skill, String> {
 
     }
 
+}
+class SkillLazy extends Skill {
+    /*@Override
+    public List<Book> getBooks(){
+        if(super.getBooks()==null){
+            setBooks(BookDAO.build().findByAuthor(this));
+        }
+        return super.getBooks();
+    }*/
 }

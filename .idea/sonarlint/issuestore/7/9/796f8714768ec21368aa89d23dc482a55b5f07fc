@@ -1,3 +1,31 @@
 
-]
-java:S2094"BRemove this empty class, write its code or make it an "interface".(¿ë‘úÿÿÿÿÿ
+Ê
+java:S26815"†This line will not be executed conditionally; only the first line of this 3-line block will be. The rest will execute unconditionally.(Ç§†½8ê¶´”ş1J$e769e803-a063-412b-ae5b-fe3bd39fbff8
+Œ
+java:S1192^"IDefine a constant instead of duplicating this literal "id_skill" 3 times.(±å‡¶8ì¶´”ş1J$2d38a581-cdc2-429b-ab59-32709fd678f5
+”
+java:S1192Z"LDefine a constant instead of duplicating this literal "description" 3 times.(™Á°¬üÿÿÿÿ8ì¶´”ş1J$970b7355-b4b4-4541-a5d6-38738039afae
+Š
+java:S1192_"HDefine a constant instead of duplicating this literal "id_user" 3 times.(³¯ 68ì¶´”ş1J$fd927f5c-edb2-4eb6-b77f-dc59998c4f56
+Ê
+java:S1186¡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8í¶´”ş1J$ff4acbcf-fea1-4212-a12a-82b923039419
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¶Ïæøÿÿÿÿ8ï¶´”ş1J$b4eb246c-b1dd-479b-bbbe-9b2615feaa64
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÚÃí8ï¶´”ş1J$350391e0-1479-4839-a6ae-376b85a1afa2
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(™ò¯•8ï¶´”ş1J$87c24bdc-9f4c-44e3-b582-67ff874b242d
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¿Úú8ï¶´”ş1J$cc9923de-b832-40c5-91d8-d584baea3d9a
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(è¡ï¼8ï¶´”ş1J$a49b25bf-9f45-460b-ac7e-bc26e4ff095a
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Õè¦™8ï¶´”ş1J$024bc0ec-3289-4a4e-b6b5-0acb4624dafe
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(æãê¡úÿÿÿÿ8ï¶´”ş1J$076842f1-97b3-44ea-92c9-0e193145c182
+o
+java:S1168"+Return an empty collection instead of null.(¥¹ï8ü¶´”ş1J$4dff1a99-7d84-4866-ae55-4419a1e4ed1c
+€
+java:S1128"=Remove this unused import 'org.example.model.entity.Faction'.(–ğôõ8õ¯¸¿ş1J$a2e11b15-2083-4609-bc7e-03ef4f619dbf
+n
+java:S1068"+Remove this unused "FINDALL" private field.(™ò¯•8ı¶´”ş1J$9096b012-fc12-42c7-a358-084a634e749f

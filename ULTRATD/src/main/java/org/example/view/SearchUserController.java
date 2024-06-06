@@ -42,6 +42,9 @@ public class SearchUserController extends Controller implements Initializable {
     }
 
     // FXML element declarations
+
+    @FXML
+    private Button FAUS;
     @FXML
     private Button NameSbt;
     @FXML
@@ -76,6 +79,11 @@ public class SearchUserController extends Controller implements Initializable {
         use = Duse.findByname(USNameSearch.getText());
         // Change the scene to the User scene, passing the found user
         App.currentController.changeScene(Scenes.USER, use);
+    }
+
+    @FXML
+    void FindAUS(ActionEvent event) throws IOException {
+        App.currentController.changeScene(Scenes.TUSER, null);
     }
 }
 

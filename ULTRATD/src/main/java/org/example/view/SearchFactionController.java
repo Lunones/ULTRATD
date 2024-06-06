@@ -39,6 +39,9 @@ public class SearchFactionController extends Controller implements Initializable
         // Currently, no specific actions are needed when the controller is closed
     }
 
+    @FXML
+    private Button FAF;
+
     // FXML fields for UI elements
     @FXML
     private Button FACTBackbt;
@@ -78,6 +81,11 @@ public class SearchFactionController extends Controller implements Initializable
         fact = Dfact.findByName(FACTNameSearch.getText());
         // Change the scene to the Faction scene, passing the found faction
         App.currentController.changeScene(Scenes.FACTION, fact);
+    }
+
+    @FXML
+    void FindAF(ActionEvent event) throws IOException {
+        App.currentController.changeScene(Scenes.TFACT, null);
     }
 }
 

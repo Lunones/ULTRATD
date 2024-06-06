@@ -79,7 +79,7 @@ public class SUchooseController extends Controller implements Initializable {
     // Event handler for navigating to the User creation page
     @FXML
     void Usenewbt(ActionEvent event) throws IOException{
-        App.currentController.changeScene(USER, usersu);
+        App.currentController.changeScene(USER, null);
     }
 
     @FXML

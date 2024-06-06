@@ -1,20 +1,26 @@
 
-¤
-java:S2681"†This line will not be executed conditionally; only the first line of this 3-line block will be. The rest will execute unconditionally.(Ç§†½8Ãºˆîü1
-œ
-java:S1186q"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ
-[
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(èáÊç
-`
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¬¹¡¿ûÿÿÿÿ
-`
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(²®±éøÿÿÿÿ
-`
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ø”›Ñøÿÿÿÿ
-`
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(½ƒôıÿÿÿÿ
-`
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÿ»ò²ıÿÿÿÿ
-V	java:S125;"<This block of commented-out lines of code should be removed.(„âõØûÿÿÿÿ
-V	java:S125R"<This block of commented-out lines of code should be removed.(÷‡ú±øÿÿÿÿ
-V	java:S125w"<This block of commented-out lines of code should be removed.(Ì¡•ñüÿÿÿÿ
+Ê
+java:S2681!"†This line will not be executed conditionally; only the first line of this 3-line block will be. The rest will execute unconditionally.(Ç§†½8½Î±“ş1J$a3a03792-a5e8-4b65-a296-0fb38ed0482f
+
+java:S1192="KDefine a constant instead of duplicating this literal "id_faction" 3 times.(˜ç‡ÿ8Ñ‹²“ş1J$824ddd36-b1cc-4dea-9281-fc7b71fd3162
+Ê
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8ÀÎ±“ş1J$9e738a9e-8b76-48e2-93fd-e4b0eb0d1349
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(èáÊç8ÅÎ±“ş1J$00f855cf-034b-415a-af28-1b7048666fae
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¬¹¡¿ûÿÿÿÿ8ÅÎ±“ş1J$39ad5e39-3158-4dd6-adf7-e404feb57fd8
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(²®±éøÿÿÿÿ8ÅÎ±“ş1J$db652f6a-6e00-4161-999b-370d0bd1a519
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(’œ°‰8ÅÎ±“ş1J$412b892b-f5ae-4372-a5e1-1c4dfff22d37
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ø”›Ñøÿÿÿÿ8ÆÎ±“ş1J$18d24d9c-a6d2-4dbc-9f2d-dfd363636ea7
+
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(½ƒôıÿÿÿÿ8ÆÎ±“ş1J$a18e35cd-2cdd-4fb1-93ed-00639e03613a
+ˆ
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(®Ø‘™8ÆÎ±“ş1J$3af9ee17-b439-46fa-8a77-21e0d51bcc66
+~	java:S125?"<This block of commented-out lines of code should be removed.(Ù¡”Ú8ÓÎ±“ş1J$c289c4b2-f736-4560-9add-a2b49eab264b
+ƒ	java:S125Y"<This block of commented-out lines of code should be removed.(÷‡ú±øÿÿÿÿ8ÔÎ±“ş1J$4a6a0cfc-511b-44a0-8f3e-3e735c88e01c
+„	java:S125“"<This block of commented-out lines of code should be removed.(Ì¡•ñüÿÿÿÿ8àÎ±“ş1J$0d1e1c00-926d-4d9d-8394-3764698a50e7
+|
+java:S1128":Remove this unused import 'org.example.model.entity.Unit'.(›õ¶.8©ÎÇ”ş1J$8f81ba2a-248e-4f28-8ae9-85d404808ffd

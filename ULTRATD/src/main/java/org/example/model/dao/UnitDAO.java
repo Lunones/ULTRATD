@@ -1,11 +1,14 @@
 package org.example.model.dao;
 
 import org.example.model.connection.DBconnection;
+import org.example.model.entity.Faction;
+import org.example.model.entity.Skill;
 import org.example.model.entity.Unit;
 import org.example.model.entity.User;
 
 import java.io.IOException;
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.List;
 
 public class UnitDAO implements DAO<Unit, String>{
@@ -13,6 +16,7 @@ public class UnitDAO implements DAO<Unit, String>{
     private final static String INSERT="INSERT INTO Unit (description,atk,hp,type,id_skill,id_user) VALUES (?,?,?,?,?,?)";
     private final static String UPDATE="UPDATE Unit SET description=?, atk=?, hp=?, type=? WHERE id=?";
     private final static String FINDALL="SELECT a.id, a.description, a.atk, a.hp, a.type, a.id_skill, a.id_user  FROM Unit AS a";
+    private final static String FINDALLTABLE = "SELECT id, description, atk, hp, type, id_skill, id_user FROM Unit";
     private final static String FINDBYNAME="SELECT a.id, a.description, a.atk, a.hp, a.type, a.id_skill, a.id_user FROM Unit AS a WHERE a.description=?";
     private final static String FINDBYID="SELECT a.id, a.description, a.atk, a.hp, a.type, a.id_skill, a.id_user FROM Unit AS a WHERE a.id=?";
     private final static String DELETE="DELETE FROM Unit WHERE id=?";
@@ -51,8 +55,8 @@ public class UnitDAO implements DAO<Unit, String>{
                 pst.setInt(2,entity.getAtk());
                 pst.setInt(3,entity.getHp());
                 pst.setString(4,entity.getType());
-                pst.setInt(5,entity.getId_skill());
-                pst.setInt(6,entity.getId_user());
+                pst.setInt(5, entity.getSkill().getId());
+                pst.setInt(6, entity.getUser().getId());
                 pst.executeUpdate();
             } catch (SQLException e) {
                 e.printStackTrace();
@@ -87,8 +91,10 @@ public class UnitDAO implements DAO<Unit, String>{
                 result.setAtk(res.getInt("atk"));
                 result.setHp(res.getInt("hp"));
                 result.setType(res.getString("type"));
-                result.setId_skill(res.getInt("id_skill"));
-                result.setId_user(res.getInt("id_user"));
+                Skill skill = SkillDAO.build().findById(res.getInt("id_skill"));
+                User user = UserDAO.build().findById(res.getInt("id_user"));
+                result.setSkill(skill);
+                result.setUser(user);
             }
             res.close();
         } catch (SQLException e) {
@@ -109,9 +115,35 @@ public class UnitDAO implements DAO<Unit, String>{
                     b.setAtk(res.getInt("atk"));
                     b.setHp(res.getInt("hp"));
                     b.setType(res.getString("type"));
-                    b.setId_skill(res.getInt("id_skill"));
-                    b.setId_user(res.getInt("id_user"));
+                    Skill skill = SkillDAO.build().findById(res.getInt("id_skill"));
+                    User user = UserDAO.build().findById(res.getInt("id_user"));
+                    b.setSkill(skill);
+                    b.setUser(user);
                     result=b;
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
+
+    public List<Unit> findAllTable() {
+        List<Unit> result = new ArrayList<>();
+        try (PreparedStatement pst = conn.prepareStatement(FINDALLTABLE)) {
+            try (ResultSet res = pst.executeQuery()) {
+                while (res.next()) {
+                    Unit un = new Unit();
+                    un.setId(res.getInt("id"));
+                    un.setDescription(res.getString("description"));
+                    un.setAtk(res.getInt("atk"));
+                    un.setHp(res.getInt("hp"));
+                    un.setType(res.getString("type"));
+                    Skill skill = SkillDAO.build().findById(res.getInt("id_skill"));
+                    User user = UserDAO.build().findById(res.getInt("id_user"));
+                    un.setSkill(skill);
+                    un.setUser(user);
+                    result.add(un);
                 }
             }
         } catch (SQLException e) {
@@ -130,4 +162,3 @@ public class UnitDAO implements DAO<Unit, String>{
 
     }
 }
-

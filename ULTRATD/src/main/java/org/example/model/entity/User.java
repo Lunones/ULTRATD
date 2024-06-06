@@ -1,5 +1,7 @@
 package org.example.model.entity;
 
+import java.util.List;
+
 /**
  * Represents a User entity in the system.
  * Each user has an ID, name, password, level, and ID of the faction they belong to.
@@ -9,7 +11,11 @@ public class User {
     private String name;        // User's name
     private String password;    // User's password
     private int lvl;            // User's level or access rights
-    private int id_faction;     // ID of the faction the user belongs to
+    private Faction faction;
+    private List<Unit> units;
+
+    ////nooooo
+    //private int id_faction;     // ID of the faction the user belongs to
 
     /**
      * Default constructor initializes the user with default values.
@@ -19,7 +25,7 @@ public class User {
         this.name = "N/A";
         this.password = "";
         this.lvl = 0;
-        this.id_faction = 0;
+        this.faction = null;
     }
 
     /**
@@ -28,21 +34,20 @@ public class User {
      * @param name The name of the user.
      * @param password The password of the user.
      * @param lvl The level of the user.
-     * @param id_faction The ID of the faction the user belongs to.
      */
-    public User(int id, String name, String password, int lvl, int id_faction) {
+    public User(int id, String name, String password, int lvl, Faction faction) {
         this.id = id;
         this.name = name;
         this.password = password;
         this.lvl = lvl;
-        this.id_faction = id_faction;
+        this.faction = faction;
     }
 
-    public User(String name, String password, int lvl, int id_faction) {
+    public User(String name, String password, int lvl, Faction faction) {
         this.name = name;
         this.password = password;
         this.lvl = lvl;
-        this.id_faction = id_faction;
+        this.faction = faction;
     }
 
     /**
@@ -133,20 +138,20 @@ public class User {
         this.lvl = lvl;
     }
 
-    /**
-     * Gets the ID of the faction the user belongs to.
-     * @return The ID of the faction.
-     */
-    public int getId_faction() {
-        return id_faction;
+    public Faction getFaction() {
+        return faction;
     }
 
-    /**
-     * Sets the ID of the faction the user belongs to.
-     * @param id_faction The ID of the faction.
-     */
-    public void setId_faction(int id_faction) {
-        this.id_faction = id_faction;
+    public void setFaction(Faction faction) {
+        this.faction = faction;
+    }
+
+    public List<Unit> getUnits() {
+        return units;
+    }
+
+    public void setUnits(List<Unit> units) {
+        this.units = units;
     }
 }
 

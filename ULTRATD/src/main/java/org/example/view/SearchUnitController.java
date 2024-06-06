@@ -42,6 +42,8 @@ public class SearchUnitController extends Controller implements Initializable {
 
     // FXML element declarations
     @FXML
+    private Button FAUN;
+    @FXML
     private Button UNBackbt;
     @FXML
     private TextField UNIDSearch;
@@ -75,6 +77,11 @@ public class SearchUnitController extends Controller implements Initializable {
         uni = Duni.findByname(UNNameSearch.getText());
         // Change the scene to the Unit scene, passing the found unit
         App.currentController.changeScene(Scenes.UNIT, uni);
+    }
+
+    @FXML
+    void FindAUN(ActionEvent event) throws IOException{
+        App.currentController.changeScene(Scenes.TUNIT, null);
     }
 }
 

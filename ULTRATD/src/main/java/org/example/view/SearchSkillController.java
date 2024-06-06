@@ -16,6 +16,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 import static org.example.view.Scenes.SUCHOOSE;
+import static org.example.view.Scenes.TSKILL;
 
 public class SearchSkillController extends Controller implements Initializable {
     // Instance variables
@@ -41,6 +42,8 @@ public class SearchSkillController extends Controller implements Initializable {
     }
 
     // FXML element declarations
+    @FXML
+    private Button FAS;
     @FXML
     private Button SKBackbt;
     @FXML
@@ -75,5 +78,11 @@ public class SearchSkillController extends Controller implements Initializable {
         sk = Dsk.findByName(SKNameSearch.getText());
         // Change the scene to the Skill scene, passing the found skill
         App.currentController.changeScene(Scenes.SKILL, sk);
+    }
+
+
+    @FXML
+    void FindAS(ActionEvent event) throws IOException {
+        App.currentController.changeScene(Scenes.TSKILL, null);
     }
 }

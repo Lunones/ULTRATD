@@ -29,25 +29,16 @@ public class UserController extends Controller implements Initializable {
         ListFaction.getItems().addAll(Fact);  // Add all faction names to the ComboBox
         txtID.setEditable(false);
 
-        if (us.getLvl()<99) {
+        if (us == null) {
             // If no user is passed (creating a new user)
             Modify.setVisible(false);  // Hide Modify button
             Delete.setVisible(false);  // Hide Delete button
             txtfaction.setVisible(false);
             txtID.setVisible(false);
-            txtLVL.setVisible(false);
             lblid.setVisible(false);
-            lbllvl.setVisible(false);
             txtLVL.setText(1+"");
-        /*} else if (us.getLvl() == 99) {
-            // If no user is passed (creating a new user)
-            Modify.setVisible(false);  // Hide Modify button
-            Delete.setVisible(false);  // Hide Delete button
-            txtfaction.setVisible(false);
-            txtID.setVisible(false);
-            lblid.setVisible(false);
-        */} else {
-            String namefact = FactionDAO.build().findById(us.getId_faction()).getName();
+        } else {
+            String namefact = us.getFaction().getName();
             txtID.setEditable(false);
             txtfaction.setEditable(false);
             txtID.setText(us.getId()+"");
@@ -97,11 +88,7 @@ public class UserController extends Controller implements Initializable {
     // Event handler for Back button
     @FXML
     void Backbt(ActionEvent event) throws IOException {
-        if (us == null){
-        App.currentController.changeScene(Scenes.LOGIN, null);  // Change scene to SU_CHOOSE
-            } else {
             App.currentController.changeScene(Scenes.SUCHOOSE, null);
-        }
     }
 
     // Event handler for Delete button
@@ -109,7 +96,7 @@ public class UserController extends Controller implements Initializable {
     void Deletebt(ActionEvent event) throws SQLException {
         // Create a new User object from the input fields
         us = new User(Integer.parseInt(txtID.getText()), txtuser.getText(), txtpass.getText(),
-                Integer.parseInt(txtLVL.getText()), Integer.parseInt(ListFaction.getId()));
+                Integer.parseInt(txtLVL.getText()));
         udao.delete(us);  // Delete the user from the database
         New();  // Clear input fields
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);

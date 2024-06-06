@@ -1,7 +1,18 @@
 
-Â
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿJ$0a9c86cf-bb32-41f5-9063-8797e23617e2
-½
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷’²ÉJ$8cb0206b-0f99-4384-bdb5-2dc680dc2100
-Â
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®ÒêúÿÿÿÿJ$a17b1de1-4337-4dc7-97d8-d1f43db103ac
+“	java:S116_"QRename this field "Backbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’¢ï8êºë”ş1J$58c75c28-6714-4701-b293-f7134bb46169
+š	java:S116a"SRename this field "DeleteUn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾õÒşÿÿÿÿ8êºë”ş1J$75d57ae3-9811-4e14-85a3-3106a588c15e
+—	java:S116c"URename this field "ListSkills" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÌû—8êºë”ş1J$e764d359-4537-4e50-ae40-51e308be2082
+•	java:S116e"SRename this field "ListUser" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Õ²8êºë”ş1J$1d45d1a3-e57c-4ed3-8bf6-d6b49d18140d
+š	java:S116g"SRename this field "ModifyUn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø¸¢üÿÿÿÿ8êºë”ş1J$66deb8df-f365-4e26-9007-7ccd5aca63c7
+’	java:S116i"PRename this field "NewUn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àà”Ş8êºë”ş1J$2f68c231-535d-46ca-952f-7e2e4d742365
+“	java:S116k"QRename this field "SaveUn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èº³8êºë”ş1J$dbca9cbc-37b9-4615-8f4f-86b33e03f9ae
+	java:S100O"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ÈĞ»8ğºë”ş1J$a5d7d63e-c48a-458f-92d8-9d648695f27f
+–	java:S100“"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠË¨—şÿÿÿÿ8ÁŒº¿ş1J$63df7ed6-0c8a-43da-9a98-62942bdc606e
+‘	java:S100¢"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(é–ë±8ÇŒº¿ş1J$33171c50-26bc-4c9f-9ddc-a089135b3c31
+‘	java:S100²"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê‹Êˆ8ÍŒº¿ş1J$7f33c88e-0ef7-4500-840c-33ff2db24330
+	java:S100¹"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œã¤@8ÎŒº¿ş1J$2cc4886f-2eaa-44c1-a430-494573f3ceb7
+‘	java:S100Ê"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¼õÁ8×Œº¿ş1J$10954164-4c83-4c3c-b431-2ba7146e4eac
+€
+java:S1128"=Remove this unused import 'org.example.model.dao.FactionDAO'.(îÔ¹ó8ÙŒº¿ş1J$43227f47-66fa-4c64-bbbf-08cfe367115b
+€
+java:S1128"=Remove this unused import 'org.example.model.entity.Faction'.(–ğôõ8ÙŒº¿ş1J$916d76b3-79fa-40ba-8d69-192c349e04d8

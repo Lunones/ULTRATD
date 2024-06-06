@@ -7,15 +7,15 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.view.TableUserController">
    <children>
-      <TableView layoutX="78.0" layoutY="119.0" prefHeight="259.0" prefWidth="445.0" style="-fx-background-color: EAAE1A; -fx-border-color: white;">
+      <TableView fx:id="TableViewUser" layoutX="111.0" layoutY="119.0" prefHeight="259.0" prefWidth="378.0" style="-fx-background-color: EAAE1A; -fx-border-color: white;">
         <columns>
-          <TableColumn id="id" prefWidth="75.0" style="-fx-background-color: lightgray;" text="ID" />
-          <TableColumn prefWidth="75.0" style="-fx-background-color: lightgray;" text="Name" />
-            <TableColumn prefWidth="75.0" style="-fx-background-color: lightgray;" text="Password" />
-            <TableColumn prefWidth="75.0" style="-fx-background-color: lightgray;" text="LVL" />
-            <TableColumn prefWidth="75.0" style="-fx-background-color: lightgray;" text="ID_Faction" />
+          <TableColumn id="id" fx:id="IdUS" prefWidth="75.0" style="-fx-background-color: lightgray;" text="ID" />
+          <TableColumn fx:id="Name" prefWidth="75.0" style="-fx-background-color: lightgray;" text="Name" />
+            <TableColumn fx:id="Password" prefWidth="75.0" style="-fx-background-color: lightgray;" text="Password" />
+            <TableColumn fx:id="LVL" prefWidth="75.0" style="-fx-background-color: lightgray;" text="LVL" />
+            <TableColumn fx:id="Id_faction" prefWidth="75.0" style="-fx-background-color: lightgray;" text="ID_Faction" />
         </columns>
       </TableView>
       <Label layoutX="279.0" layoutY="46.0" text="USER" textFill="WHITE">
