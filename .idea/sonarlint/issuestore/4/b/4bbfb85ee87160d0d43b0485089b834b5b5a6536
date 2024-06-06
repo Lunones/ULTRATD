@@ -1,0 +1,44 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯„¾‡þÿÿÿÿ
+f	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í‘“´
+k	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ó®öûÿÿÿÿ
+k	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙèéÍúÿÿÿÿ
+f	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Âª¡
+k	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Öžâöýÿÿÿÿ
+k	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ð¿¢³ÿÿÿÿÿ
+f	java:S116?"QRename this field "Delete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñµ‹—
+i	java:S116B"ORename this field "IdUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜ŸŠ€ûÿÿÿÿ
+o	java:S116E"URename this field "Id_faction" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ÑÖ†ÿÿÿÿÿ
+c	java:S116H"NRename this field "LVL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸöÜ¸
+k	java:S116K"QRename this field "Modify" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ÷Šðüÿÿÿÿ
+i	java:S116N"ORename this field "Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Ðç£ûÿÿÿÿ
+h	java:S116Q"SRename this field "Password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÀ’Ï
+i	java:S116T"ORename this field "Save" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÔÿ¢ùÿÿÿÿ
+r	java:S116W"XRename this field "TableViewUser" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ž§—ƒýÿÿÿÿ
+œ
+java:S1186;"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®Òêúÿÿÿÿ
+—
+java:S1186_"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(…±ªî
+œ
+java:S1186d"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(§Þ»ýúÿÿÿÿ
+–
+java:S1186i"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Œã¤@
+o
+java:S1450"TRemove the "users" field and declare it as a local variable in the relevant methods.(ÓþÞ¯øÿÿÿÿ
+M
+java:S1117("7Rename "LVL" which hides the field declared at line 71.(€Âª¡
+Y
+java:S1117-">Rename "Id_faction" which hides the field declared at line 68.(ð¿¢³ÿÿÿÿÿ
+T
+java:S11174"9Rename "users" which hides the field declared at line 26.(±’¢¯ûÿÿÿÿ
+Q	java:S1255"<This block of commented-out lines of code should be removed.(Ëî¤ô
+c	java:S100Z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¼õÁ
+c	java:S100_"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…±ªî
+h	java:S100d"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§Þ»ýúÿÿÿÿ
+b	java:S100i"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œã¤@
+P
+java:S1128":Remove this unused import 'org.example.model.dao.UnitDAO'.(éýÏ«
+S
+java:S1128"=Remove this unused import 'org.example.model.entity.Faction'.(–ðôõ
+O
+java:S1128":Remove this unused import 'org.example.model.entity.Unit'.(›õ¶.

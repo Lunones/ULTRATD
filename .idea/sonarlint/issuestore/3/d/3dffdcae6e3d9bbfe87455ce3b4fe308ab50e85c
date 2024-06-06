@@ -1,21 +1,16 @@
 
-™	java:S116"RRename this field "NameSbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÒ¼ùÿÿÿÿ8é÷”á÷1J$fb6b75fc-c6d0-41e4-a724-1871dae7b635
-•	java:S116"SRename this field "USBackbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌØ±8ê÷”á÷1J$98e1e34b-b649-4a45-9705-0ef151540281
-—	java:S116"URename this field "USIDSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘±¢›8ê÷”á÷1J$60a7b8fc-75eb-4e79-933f-157a77ed2a1d
-	java:S116"WRename this field "USNameSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Â×şùÿÿÿÿ8ê÷”á÷1J$87f7d607-730d-4363-8e25-c9de96ff0bd4
-”	java:S116"RRename this field "USSIDbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿä¾¹8ê÷”á÷1J$c17e086b-beb9-460e-bac8-2b6a283d22e1
-Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨—÷8ë÷”á÷1J$3081f578-367f-44d9-bb02-1c580dd13a6f
-É
-java:S1186#"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Şİ¨øÿÿÿÿ8ì÷”á÷1J$0bc5dfb7-5f54-42c7-9aea-76f5ed1b0d6e
-É
-java:S1186("€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ı €üÿÿÿÿ8ì÷”á÷1J$9974ef4c-c618-4a76-8ad7-b0719bf3a389
-É
-java:S1186-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿ8¶ßá÷1J$e02b5dd6-b1f5-40fc-9a11-a4b10f33afb9
-Ä
-java:S11862"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷’²É8·ßá÷1J$ee285ca8-e51a-47e3-9957-e643e4d8b09e
-É
-java:S11867"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®Òêúÿÿÿÿ8·ßá÷1J$0103fd51-d0c4-4f34-8fed-8c97753076e1
-	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨—÷8ï÷”á÷1J$f7320f28-2076-4367-a25b-b7938eb78bb1
-•	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şİ¨øÿÿÿÿ8ï÷”á÷1J$b806004c-c18c-4960-b7a6-159062530322
-•	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı €üÿÿÿÿ8ğ÷”á÷1J$8ca63373-420e-4046-a642-2bb9f1a2f42d
+k	java:S116"ORename this field "Duse" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ìæò8¶ÑÜéş1
+p	java:S116/"ORename this field "FAUS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ÔçÜüÿÿÿÿ8·ÑÜéş1
+™	java:S1161"RRename this field "NameSbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÒ¼ùÿÿÿÿ8é÷”á÷1J$fb6b75fc-c6d0-41e4-a724-1871dae7b635
+•	java:S1163"SRename this field "USBackbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌØ±8ê÷”á÷1J$98e1e34b-b649-4a45-9705-0ef151540281
+—	java:S1165"URename this field "USIDSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘±¢›8ê÷”á÷1J$60a7b8fc-75eb-4e79-933f-157a77ed2a1d
+	java:S1167"WRename this field "USNameSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Â×şùÿÿÿÿ8ê÷”á÷1J$87f7d607-730d-4363-8e25-c9de96ff0bd4
+”	java:S1169"RRename this field "USSIDbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿä¾¹8ê÷”á÷1J$c17e086b-beb9-460e-bac8-2b6a283d22e1
+j	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¼õÁ8½ÑÜéş1
+o	java:S100D"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“£Ìöúÿÿÿÿ8¾ÑÜéş1
+i	java:S100M"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ÈÍ8ÀÑÜéş1
+o	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â¬‹Áÿÿÿÿÿ8ÁÑÜéş1
+]
+java:S1128	";Remove this unused import 'org.example.model.dao.SkillDAO'.(Õ­•‰ÿÿÿÿÿ8ÂÑÜéş1
+W
+java:S1128";Remove this unused import 'org.example.model.entity.Skill'.(á¨÷f8ÂÑÜéş1

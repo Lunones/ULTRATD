@@ -1,7 +1,16 @@
 
 l	java:S116"PRename this field "Dfact" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞçüÏ8€øğìü1
-œ	java:S116,"URename this field "FACTBackbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ§øûÿÿÿÿ8‹ß¹á÷1J$ec804fde-ab73-405d-af5d-f5dce9c84511
-™	java:S116/"WRename this field "FACTIDSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Æ¬ñ8‹ß¹á÷1J$d28dce3b-997b-4f90-b3a1-30d5a13ee830
- 	java:S1162"YRename this field "FACTNameSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷èûÿÿÿÿ8Œß¹á÷1J$ef72b02c-18a1-41bd-9b49-73797341f209
-›	java:S1165"TRename this field "FACTSIDbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Æøÿÿÿÿ8Œß¹á÷1J$5f5dd9c4-d4a3-4be2-91bc-1c47b43796f7
-™	java:S1168"RRename this field "NameSbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÒ¼ùÿÿÿÿ8Œß¹á÷1J$6a18037f-59ee-4d42-9647-d81922b08c1a
+j	java:S116+"NRename this field "FAF" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ éù8øÒÜéş1
+œ	java:S116/"URename this field "FACTBackbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ§øûÿÿÿÿ8‹ß¹á÷1J$ec804fde-ab73-405d-af5d-f5dce9c84511
+™	java:S1162"WRename this field "FACTIDSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­Æ¬ñ8‹ß¹á÷1J$d28dce3b-997b-4f90-b3a1-30d5a13ee830
+ 	java:S1165"YRename this field "FACTNameSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷èûÿÿÿÿ8Œß¹á÷1J$ef72b02c-18a1-41bd-9b49-73797341f209
+›	java:S1168"TRename this field "FACTSIDbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½Æøÿÿÿÿ8Œß¹á÷1J$5f5dd9c4-d4a3-4be2-91bc-1c47b43796f7
+™	java:S116;"RRename this field "NameSbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÒ¼ùÿÿÿÿ8Œß¹á÷1J$6a18037f-59ee-4d42-9647-d81922b08c1a
+j	java:S100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¼õÁ8şÒÜéş1
+o	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“£Ìöúÿÿÿÿ8ÿÒÜéş1
+i	java:S100O"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ÈÍ8€ÓÜéş1
+o	java:S100W"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À„ßğúÿÿÿÿ8‚ÓÜéş1
+K
+java:S1128".Remove this unused import 'javafx.scene.Node'.(ÑÖ¬ï8ƒÓÜéş1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ƒÓÜéş1

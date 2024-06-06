@@ -1,21 +1,17 @@
 
-š	java:S116"SRename this field "UNBackbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÑ©ıÿÿÿÿ8³¶¸á÷1J$c45b7e3b-c203-4bd7-8f52-c96ce57f7f4b
-œ	java:S116 "URename this field "UNIDSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î£Êúÿÿÿÿ8³¶¸á÷1J$7eb8291f-4f79-4809-a8b9-1dfd5fdde1df
-›	java:S116#"TRename this field "UNNameSbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÓ„™øÿÿÿÿ8³¶¸á÷1J$843c1671-777b-4e41-8877-7c6dd36593d3
-	java:S116&"WRename this field "UNNameSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀæÙ¤ùÿÿÿÿ8³¶¸á÷1J$8d25d0eb-b129-4c7d-a022-8c0b3a0d2096
-™	java:S116)"RRename this field "UNSIDbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëı·‚øÿÿÿÿ8´¶¸á÷1J$98718822-7e6c-4e1d-abf9-31751b249db7
-É
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿ8Éÿá÷1J$7bcedba0-b12b-4175-ba1d-27d66f838ec2
-Ä
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷’²É8Éÿá÷1J$dfb522b9-0e7c-4198-9fec-c8f42597193f
-É
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®Òêúÿÿÿÿ8Éÿá÷1J$175eddca-7896-41fe-ad74-62b0f7788eed
-Ä
-java:S1186,"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨—÷8µ¶¸á÷1J$c5867ff0-b7ee-4321-88d6-0c76d742051b
-É
-java:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Şİ¨øÿÿÿÿ8µ¶¸á÷1J$baa256d9-cf9a-4a53-8cd2-7557f6541abe
-É
-java:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ı €üÿÿÿÿ8µ¶¸á÷1J$4e5611d5-3279-4f32-b084-12bc35fc0d50
-	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨—÷8º¶¸á÷1J$100b00e7-52fc-4fd8-a8ba-7c542f613692
-•	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şİ¨øÿÿÿÿ8º¶¸á÷1J$52817940-529d-4998-91a6-b4d2b580fb48
-•	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı €üÿÿÿÿ8»¶¸á÷1J$e74da509-9a80-43c6-a6fc-de3992b786d9
+k	java:S116"ORename this field "Duni" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈÈÔ8öÑÜéş1
+k	java:S116-"ORename this field "FAUN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û¯…º8öÑÜéş1
+š	java:S116/"SRename this field "UNBackbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªÑ©ıÿÿÿÿ8³¶¸á÷1J$c45b7e3b-c203-4bd7-8f52-c96ce57f7f4b
+œ	java:S1161"URename this field "UNIDSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Î£Êúÿÿÿÿ8³¶¸á÷1J$7eb8291f-4f79-4809-a8b9-1dfd5fdde1df
+›	java:S1163"TRename this field "UNNameSbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÓ„™øÿÿÿÿ8³¶¸á÷1J$843c1671-777b-4e41-8877-7c6dd36593d3
+	java:S1165"WRename this field "UNNameSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀæÙ¤ùÿÿÿÿ8³¶¸á÷1J$8d25d0eb-b129-4c7d-a022-8c0b3a0d2096
+™	java:S1167"RRename this field "UNSIDbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëı·‚øÿÿÿÿ8´¶¸á÷1J$98718822-7e6c-4e1d-abf9-31751b249db7
+j	java:S100;"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¼õÁ8üÑÜéş1
+o	java:S100B"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“£Ìöúÿÿÿÿ8ıÑÜéş1
+i	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ÈÍ8ÿÑÜéş1
+o	java:S100S"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œîÓşÿÿÿÿ8€ÒÜéş1
+\
+java:S1128
+":Remove this unused import 'org.example.model.dao.UserDAO'.(İëŠğûÿÿÿÿ8ÒÜéş1
+W
+java:S1128":Remove this unused import 'org.example.model.entity.User'.(´ç°8‚ÒÜéş1

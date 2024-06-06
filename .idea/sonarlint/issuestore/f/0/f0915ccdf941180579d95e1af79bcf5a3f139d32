@@ -1,0 +1,34 @@
+
+f	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä©ÿÞ
+f	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È¹Åµ
+s	java:S1163"YRename this field "TableViewSkill" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðµ¢Ìøÿÿÿÿ
+c	java:S1166"NRename this field "IdS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Î±ð
+e	java:S1169"PRename this field "DescS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äóÕ¯
+f	java:S116<"QRename this field "Backbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’¢ï
+h	java:S116?"TRename this field "DeletebtS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½¯¿6
+i	java:S116B"TRename this field "ModifybtS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•£Éª
+f	java:S116E"QRename this field "NewbtS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ´õ
+g	java:S116H"RRename this field "SavebtS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å„¬÷
+œ
+java:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®Òêúÿÿÿÿ
+œ
+java:S1186P"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¥Õ˜¾ÿÿÿÿÿ
+œ
+java:S1186U"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¾’ÝÞøÿÿÿÿ
+–
+java:S1186Z"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ôõõ
+—
+java:S1186_"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚ŒüÍ
+j
+java:S1450"URemove the "skills" field and declare it as a local variable in the relevant methods.(ó“»7
+U
+java:S1117)":Rename "skills" which hides the field declared at line 28.(öéšßøÿÿÿÿ
+c	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¼õÁ
+h	java:S100P"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Õ˜¾ÿÿÿÿÿ
+h	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾’ÝÞøÿÿÿÿ
+b	java:S100Z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôõõ
+c	java:S100_"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ŒüÍ
+O
+java:S1128"4Remove this unused import 'javafx.beans.Observable'.(žæ ûÿÿÿÿ
+S
+java:S1128"=Remove this unused import 'org.example.model.entity.Faction'.(–ðôõ

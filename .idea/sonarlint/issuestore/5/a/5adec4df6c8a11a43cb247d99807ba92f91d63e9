@@ -1,0 +1,40 @@
+
+k	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ªÚ…ùÿÿÿÿ
+f	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎÀŠá
+u	java:S1165"[Rename this field "TableViewFaction" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€şæ”úÿÿÿÿ
+j	java:S1167"PRename this field "DescF" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”¹µÎıÿÿÿÿ
+c	java:S1169"NRename this field "IdF" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¸”¤
+h	java:S116;"SRename this field "Deletebt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Á„
+h	java:S116>"SRename this field "Modifybt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş‚Ë§
+m	java:S116A"SRename this field "NFBackbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( Éæîûÿÿÿÿ
+j	java:S116D"PRename this field "Newbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãˆ£øÿÿÿÿ
+k	java:S116G"QRename this field "Savebt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠŞÈ™üÿÿÿÿ
+œ
+java:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®Òêúÿÿÿÿ
+œ
+java:S1186U"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¥Õ˜¾ÿÿÿÿÿ
+œ
+java:S1186Z"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¾’İŞøÿÿÿÿ
+–
+java:S1186`"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ôõõ
+—
+java:S1186e"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚ŒüÍ
+r
+java:S1450"WRemove the "factions" field and declare it as a local variable in the relevant methods.(Š½ªÿÿÿÿÿ
+R
+java:S1117*"<Rename "factions" which hides the field declared at line 29.(ÊĞÈ
+Q	java:S125+"<This block of commented-out lines of code should be removed.(Ëî¤ô
+c	java:S100O"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¼õÁ
+h	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Õ˜¾ÿÿÿÿÿ
+h	java:S100Z"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾’İŞøÿÿÿÿ
+b	java:S100`"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôõõ
+c	java:S100e"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ŒüÍ
+V	java:S125i"<This block of commented-out lines of code should be removed.(û§º×ùÿÿÿÿ
+a
+java:S1128"KRemove this unused import 'javafx.scene.control.cell.PropertyValueFactory'.(àÎ¬õ
+d
+java:S1128"IRemove this unused import 'javafx.scene.control.cell.TextFieldTableCell'.(¦’âÄùÿÿÿÿ
+P
+java:S1128";Remove this unused import 'org.example.model.entity.Skill'.(á¨÷f
+U
+java:S1128":Remove this unused import 'org.w3c.dom.events.MouseEvent'.(öˆÇ±úÿÿÿÿ

@@ -1,21 +1,18 @@
 
-•	java:S116"SRename this field "SKBackbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Έ8¤“»αχ1J$e7df11e9-1f1c-4cab-861f-01d6a58bd6f6
-	java:S116 "URename this field "SKIDSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(αΥλύÿÿÿÿ8¤“»αχ1J$0617891a-d018-4b8a-80d1-9653fc6e81e7
-•	java:S116#"TRename this field "SKNameSbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(οέ8¤“»αχ1J$8604a7bf-5087-406c-a250-7a7bcd2628a6
-	java:S116&"WRename this field "SKNameSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ρϊμÿÿÿÿÿÿ8¤“»αχ1J$da36a09d-1c49-42a9-9c85-7ea0e6b87162
-™	java:S116)"RRename this field "SKSIDbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(θ΄ώΉψÿÿÿÿ8¥“»αχ1J$454cc4ba-d034-407e-ad8b-886cc8a7fa1b
-Ι
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘έόÿÿÿÿ8¬αχ1J$8f68d5da-beda-4dbd-bb2c-6a19f612fc72
-Δ
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(χ’²Ι8¬αχ1J$fd2efb97-21f4-4755-82b4-a81c4f98495f
-Ι
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(―®Òκϊÿÿÿÿ8¬αχ1J$c881d779-d664-4020-bfa1-e2492040cfb6
-Δ
-java:S1186,"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¨—χ8¦“»αχ1J$950224fd-b653-404c-af8b-1c5e60086524
-Ι
-java:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ήέ¨ψÿÿÿÿ8¦“»αχ1J$0da8a72a-f61a-43c2-b853-eab5b2bedac5
-Ι
-java:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ύ €όÿÿÿÿ8§“»αχ1J$116c1243-fa2a-4bd3-bc3c-61dbbd061868
-	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨—χ8«“»αχ1J$16fa79c1-6a05-47ab-bb49-17b00868dc06
-•	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ήέ¨ψÿÿÿÿ8¬“»αχ1J$0ced95e7-5510-4d91-af88-1cc75680e17f
-•	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ύ €όÿÿÿÿ8¬“»αχ1J$f692ba11-fd6b-4540-b03d-4e5de5407650
+o	java:S116"NRename this field "Dsk" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Άήοεÿÿÿÿÿ8¶Òάιώ1
+o	java:S116."NRename this field "FAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΪΏ²΄ϊÿÿÿÿ8·Òάιώ1
+•	java:S1160"SRename this field "SKBackbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Έ8¤“»αχ1J$e7df11e9-1f1c-4cab-861f-01d6a58bd6f6
+	java:S1162"URename this field "SKIDSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(αΥλύÿÿÿÿ8¤“»αχ1J$0617891a-d018-4b8a-80d1-9653fc6e81e7
+•	java:S1164"TRename this field "SKNameSbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(οέ8¤“»αχ1J$8604a7bf-5087-406c-a250-7a7bcd2628a6
+	java:S1166"WRename this field "SKNameSearch" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ρϊμÿÿÿÿÿÿ8¤“»αχ1J$da36a09d-1c49-42a9-9c85-7ea0e6b87162
+™	java:S1168"RRename this field "SKSIDbt" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(θ΄ώΉψÿÿÿÿ8¥“»αχ1J$454cc4ba-d034-407e-ad8b-886cc8a7fa1b
+j	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤ΌυΑ8»Òάιώ1
+o	java:S100C"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“£Μφϊÿÿÿÿ8ΌÒάιώ1
+i	java:S100L"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€ΘΝ8ΎÒάιώ1
+o	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ΩΫΔÿÿÿÿÿ8ΏÒάιώ1
+Z
+java:S1128	"=Remove this unused import 'org.example.model.dao.FactionDAO'.(ξΤΉσ8ΐÒάιώ1
+Z
+java:S1128"=Remove this unused import 'org.example.model.entity.Faction'.(–πτυ8ΑÒάιώ1
+]
+java:S1128";Remove this unused import 'org.example.view.Scenes.TSKILL'.(•ΆΧΙύÿÿÿÿ8ΑÒάιώ1
