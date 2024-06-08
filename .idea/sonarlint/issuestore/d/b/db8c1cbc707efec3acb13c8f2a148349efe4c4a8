@@ -4,11 +4,11 @@
 ’	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ÂÐ-8çù–’þ1J$02d74e20-c1f2-413f-89f4-04d873e2059b
 ’	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ÂÐ-8çù–’þ1J$3de3dfbb-89f6-4177-826e-0c8f7ed28854
 ¥
+java:S41653"bRemove this useless assignment; "user" already holds the assigned value along all execution paths.(»¶¤Ý8éù–’þ1J$80e2bbc7-1082-4c2d-8a26-30e08df57196
+¥
 java:S4165*"bRemove this useless assignment; "user" already holds the assigned value along all execution paths.(»¶¤Ý8éù–’þ1J$0b02f6b4-f7c6-49bd-b9bb-71988849f7b6
 ¥
 java:S41652"cRemove this useless assignment; "skill" already holds the assigned value along all execution paths.(‹ÍÔ8éù–’þ1J$0dbc74a7-e0ee-4fcf-926a-606565138e7a
-¥
-java:S41653"bRemove this useless assignment; "user" already holds the assigned value along all execution paths.(»¶¤Ý8éù–’þ1J$80e2bbc7-1082-4c2d-8a26-30e08df57196
 ¥
 java:S4165)"cRemove this useless assignment; "skill" already holds the assigned value along all execution paths.(‹ÍÔ8éù–’þ1J$75ba3946-c047-40d5-bead-b0a6f1d90ab8
 ~	java:S125"<This block of commented-out lines of code should be removed.(Êß–Â8îù–’þ1J$2902ea39-3817-41b3-980b-0bd6765146e4
@@ -18,9 +18,9 @@ java:S1172#"<Remove these unused method parameters "id_skill", "id_user".(Ý¶’Œ
 java:S1172-"<Remove these unused method parameters "id_skill", "id_user".(½ÂÐ-8ðù–’þ1J$81e90570-9f5a-46ce-9947-e48207322c0c
 q
 java:S1656)"/Remove or correct this useless self-assignment.(‹ÍÔ8õù–’þ1J$8b0115d4-88f2-4644-b2d1-1cb4a2f8a5fb
+q
+java:S16562"/Remove or correct this useless self-assignment.(‹ÍÔ8õù–’þ1J$7bd37d9c-c6e8-4422-a388-e6f241a1b58f
 r
 java:S1656*"/Remove or correct this useless self-assignment.(»¶¤Ý8õù–’þ1J$542f78dc-b453-4db8-8d29-3c44ed7a41f3
 r
 java:S16563"/Remove or correct this useless self-assignment.(»¶¤Ý8õù–’þ1J$b46dce84-dcfd-4def-a4cc-608c8686dc36
-q
-java:S16562"/Remove or correct this useless self-assignment.(‹ÍÔ8õù–’þ1J$7bd37d9c-c6e8-4422-a388-e6f241a1b58f

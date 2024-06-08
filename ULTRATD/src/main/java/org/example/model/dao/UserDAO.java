@@ -28,6 +28,7 @@ public class UserDAO implements DAO<User, String>{
     @Override
     public User save(User entity) {
         User result = entity;
+        //Faction fa = entity.getFaction();
         if(entity==null) return result;
             //INSERT
             try(PreparedStatement pst = conn.prepareStatement(INSERT, Statement.RETURN_GENERATED_KEYS)) {

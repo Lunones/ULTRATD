@@ -2,18 +2,22 @@ package org.example.view;
 
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleListProperty;
+import javafx.beans.property.SimpleObjectProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.chart.PieChart;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import org.example.App;
 import org.example.model.dao.UnitDAO;
+import org.example.model.entity.Skill;
 import org.example.model.entity.Unit;
+import org.example.model.entity.User;
 
 import java.io.IOException;
 import java.net.URL;
@@ -46,15 +50,11 @@ public class TableUnitController extends Controller implements Initializable {
 
         Type.setCellValueFactory(Unit-> new SimpleStringProperty(Unit.getValue().getType()));
 
-        Id_skill.setCellValueFactory(Unit-> {
-            int Id_skill = Unit.getValue().getId_skill();
-            return new SimpleIntegerProperty(Id_skill).asObject();
-        });
+        Id_skill.setCellValueFactory(Unit->
+                new SimpleStringProperty(Unit.getValue().getSkill().getDescription()));
 
-        Id_user.setCellValueFactory(Unit-> {
-            int Id_user = Unit.getValue().getId_skill();
-            return new SimpleIntegerProperty(Id_user).asObject();
-        });
+        Id_user.setCellValueFactory(Unit->
+            new SimpleStringProperty(Unit.getValue().getUser().getName()));
     }
 
     @Override
@@ -89,10 +89,10 @@ public class TableUnitController extends Controller implements Initializable {
     private TableColumn<Unit, Integer> IdUN;
 
     @FXML
-    private TableColumn<Unit, Integer> Id_skill;
+    private TableColumn<Unit, String> Id_skill;
 
     @FXML
-    private TableColumn<Unit, Integer> Id_user;
+    private TableColumn<Unit, String> Id_user;
 
     @FXML
     private Button ModifyUn;

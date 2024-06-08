@@ -41,10 +41,8 @@ public class TableUserController extends Controller implements Initializable {
             return new SimpleIntegerProperty(LVL).asObject();
         });
 
-        Id_faction.setCellValueFactory(User-> {
-            int Id_faction = User.getValue().getLvl();
-            return new SimpleIntegerProperty(Id_faction).asObject();
-        });
+        Id_faction.setCellValueFactory(User->
+                new SimpleStringProperty(User.getValue().getFaction().getName()));
     }
 
     @Override
@@ -66,7 +64,7 @@ public class TableUserController extends Controller implements Initializable {
     private TableColumn<User, Integer> IdUS;
 
     @FXML
-    private TableColumn<User, Integer> Id_faction;
+    private TableColumn<User, String> Id_faction;
 
     @FXML
     private TableColumn<User, Integer> LVL;

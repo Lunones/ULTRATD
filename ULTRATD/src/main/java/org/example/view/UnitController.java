@@ -29,6 +29,9 @@ public class UnitController extends Controller implements Initializable {
     private UnitDAO undao = new UnitDAO();
     private List<String> use = UserDAO.build().findAll();  // List to hold all faction names
     private List<String> ski = SkillDAO.build().findAll();  // List to hold all skill names
+    private Skill news = new Skill();
+    private User newu = new User();
+
     private int idSkill;
     private int idUser;
 
@@ -184,9 +187,13 @@ public class UnitController extends Controller implements Initializable {
     @FXML
     void Savebt(ActionEvent event) {
         // Create a new Unit object from input fields
+        String selectedUser = String.valueOf(ListUser.getSelectionModel().getSelectedItem());
+        String selectedSkill = String.valueOf(ListSkills.getSelectionModel().getSelectedItem());
+        news = SkillDAO.build().findByName(selectedSkill);
+        newu = UserDAO.build().findByname(selectedUser);
         un = new Unit (txtdesc.getText(), Integer.parseInt(txtatk.getText()),
                 Integer.parseInt(txthp.getText()), txttype.getText(),
-                idSkill, idUser);
+                news, newu);
         // Save the unit to the database
         undao.save(un);
         // Clear input fields

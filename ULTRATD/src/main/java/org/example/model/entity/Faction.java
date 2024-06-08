@@ -36,7 +36,6 @@ public class Faction {
      * @return The ID of the faction.
      */
     public int getId() {
-
         return id;
     }
 

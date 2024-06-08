@@ -32,7 +32,7 @@ public class Unit {
         this.user = null;
     }
 
-    public Unit(int id, String description, int atk, int hp, String type, int id_skill, int id_user) {
+    public Unit(int id, String description, int atk, int hp, String type, Skill skill, User user) {
         this.id = id;
         this.description = description;
         this.atk = atk;
@@ -42,7 +42,7 @@ public class Unit {
         this.user = user;
     }
 
-    public Unit(String description, int atk, int hp, String type, int id_skill, int id_user) {
+    public Unit(String description, int atk, int hp, String type, Skill skill, User user) {
         this.description = description;
         this.atk = atk;
         this.hp = hp;

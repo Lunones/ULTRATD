@@ -19,7 +19,8 @@ public class NewUserController extends Controller implements Initializable {
     private User us;               // User object to hold user details
     private UserDAO udao;       // Data Access Object for User
     private List<String> fact;  // List to hold all faction names
-    private Faction idFact;                         // Variable to hold the ID of the selected faction
+    private Faction newf = new Faction();
+    private int idFact;                         // Variable to hold the ID of the selected faction
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -84,9 +85,10 @@ public class NewUserController extends Controller implements Initializable {
     @FXML
     void Savebt(ActionEvent event) {
         // Create a new User object from the input fields
-        idFact = new Faction();
+        String selectedFaction = String.valueOf(ListFaction.getSelectionModel().getSelectedItem());
+        newf = FactionDAO.build().findByName(selectedFaction);
         us = new User(txtuser.getText(), txtpass.getText(),
-                Integer.parseInt(txtLVL.getText()), idFact);
+                Integer.parseInt(txtLVL.getText()), newf);
         udao.save(us);  // Save the user to the database
         New();  // Clear input fields
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);

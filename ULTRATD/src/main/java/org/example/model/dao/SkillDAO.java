@@ -140,12 +140,3 @@ public class SkillDAO implements DAO<Skill, String> {
     }
 
 }
-class SkillLazy extends Skill {
-    /*@Override
-    public List<Book> getBooks(){
-        if(super.getBooks()==null){
-            setBooks(BookDAO.build().findByAuthor(this));
-        }
-        return super.getBooks();
-    }*/
-}
