@@ -142,15 +142,6 @@ public class UserDAO implements DAO<User, String>{
     public void close() throws IOException {
 
     }
-
-    class UserLazy extends User{
-        /*@Override
-        public Faction getFaction(){
-            if(super.getId_faction()==-1){
-                setId_faction(BookDAO.build().findByAuthor(this));
-            }
-            return super.getBooks();*/
-        }
         @Override
     public User delete(User entity) throws SQLException {
             if (entity == null || entity.getName() == null) return entity;
@@ -178,4 +169,12 @@ public class UserDAO implements DAO<User, String>{
         return null;
     }
 
+}
+class UserLazy extends User {
+    public List<Unit> getBooks(){
+        if(super.getUnits()==null){
+            setUnits(UnitDAO.build().findByUser(this));
+        }
+        return super.getUnits();
+    }
 }

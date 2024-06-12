@@ -152,6 +152,30 @@ public class UnitDAO implements DAO<Unit, String>{
         return result;
     }
 
+    public List<Unit> findByUser(User u) {
+        List<Unit> result = new ArrayList<>();
+        if (u == null || u.getId() == 0) return result;
+        try (PreparedStatement pst = conn.prepareStatement(FINDALLTABLE)) {
+            pst.setInt(1, u.getId());
+            try (ResultSet res = pst.executeQuery()) {
+                while (res.next()) {
+                    Unit un = new Unit();
+                    un.setId(res.getInt("id"));
+                    un.setDescription(res.getString("description"));
+                    un.setAtk(res.getInt("atk"));
+                    un.setHp(res.getInt("hp"));
+                    un.setType(res.getString("type"));
+                    Skill skill = SkillDAO.build().findById(res.getInt("id_skill"));
+                    un.setSkill(skill);
+                    result.add(un);
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
+
     @Override
     public List<String> findAll() {
         return null;
