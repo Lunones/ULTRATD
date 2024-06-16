@@ -18,6 +18,7 @@ public class UnitDAO implements DAO<Unit, String>{
     private final static String FINDALL="SELECT a.id, a.description, a.atk, a.hp, a.type, a.id_skill, a.id_user  FROM Unit AS a";
     private final static String FINDALLTABLE = "SELECT id, description, atk, hp, type, id_skill, id_user FROM Unit";
     private final static String FINDBYNAME="SELECT a.id, a.description, a.atk, a.hp, a.type, a.id_skill, a.id_user FROM Unit AS a WHERE a.description=?";
+    private final static String FINDUNITS = "SELECT a.id, a.description, a.atk, a.hp, a.type, a.id_skill, a.id_user FROM Unit AS a WHERE a.id_user=?";
     private final static String FINDBYID="SELECT a.id, a.description, a.atk, a.hp, a.type, a.id_skill, a.id_user FROM Unit AS a WHERE a.id=?";
     private final static String DELETE="DELETE FROM Unit WHERE id=?";
     private Connection conn;
@@ -146,6 +147,32 @@ public class UnitDAO implements DAO<Unit, String>{
                     result.add(un);
                 }
             }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
+
+    public Unit findUnit(int key) {
+
+        Unit result = new Unit();
+        if(key==0) return result;
+
+        try(PreparedStatement pst = conn.prepareStatement(FINDUNITS)) {
+            pst.setInt(1,key);
+            ResultSet res = pst.executeQuery();
+            if(res.next()){
+                result.setId(res.getInt("id"));
+                result.setDescription(res.getString("description"));
+                result.setAtk(res.getInt("atk"));
+                result.setHp(res.getInt("hp"));
+                result.setType(res.getString("type"));
+                Skill skill = SkillDAO.build().findById(res.getInt("id_skill"));
+                User user = UserDAO.build().findById(res.getInt("id_user"));
+                result.setSkill(skill);
+                result.setUser(user);
+            }
+            res.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }

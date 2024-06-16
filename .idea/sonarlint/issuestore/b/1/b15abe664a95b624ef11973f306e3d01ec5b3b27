@@ -1,26 +1,26 @@
 
 Ê
-java:S2681!"†This line will not be executed conditionally; only the first line of this 3-line block will be. The rest will execute unconditionally.(Ç§†½8½Î±“ş1J$a3a03792-a5e8-4b65-a296-0fb38ed0482f
+java:S2681""†This line will not be executed conditionally; only the first line of this 3-line block will be. The rest will execute unconditionally.(Ç§†½8½Î±“ş1J$89cd4d36-18d1-4da6-b435-191d6a37a0af
 
-java:S1192="KDefine a constant instead of duplicating this literal "id_faction" 3 times.(˜ç‡ÿ8Ñ‹²“ş1J$824ddd36-b1cc-4dea-9281-fc7b71fd3162
+java:S1192>"KDefine a constant instead of duplicating this literal "id_faction" 3 times.(˜ç‡ÿ8Ñ‹²“ş1J$1c70494e-1c77-4ab3-accf-2991843838a8
 Ê
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8ÀÎ±“ş1J$9e738a9e-8b76-48e2-93fd-e4b0eb0d1349
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8ÀÎ±“ş1J$54263bc6-eb89-42b6-b1af-85d62559e68b
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(èáÊç8ÅÎ±“ş1J$00f855cf-034b-415a-af28-1b7048666fae
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(èáÊç8ÅÎ±“ş1J$8f7512fc-29a8-4466-a2ec-e37fc9deed6b
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¬¹¡¿ûÿÿÿÿ8ÅÎ±“ş1J$39ad5e39-3158-4dd6-adf7-e404feb57fd8
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¬¹¡¿ûÿÿÿÿ8ÅÎ±“ş1J$fe5839cd-1475-45fe-affd-9b0dd0a90a75
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(²®±éøÿÿÿÿ8ÅÎ±“ş1J$db652f6a-6e00-4161-999b-370d0bd1a519
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(²®±éøÿÿÿÿ8ÅÎ±“ş1J$6f06cd2c-152a-4f2d-a52d-7c0bb29ff377
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(’œ°‰8ÅÎ±“ş1J$412b892b-f5ae-4372-a5e1-1c4dfff22d37
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(’œ°‰8ÅÎ±“ş1J$9ccf07dc-fe55-44ef-b863-45dbb61b0cda
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ø”›Ñøÿÿÿÿ8ÆÎ±“ş1J$18d24d9c-a6d2-4dbc-9f2d-dfd363636ea7
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Ø”›Ñøÿÿÿÿ8ÆÎ±“ş1J$e25c0eb1-777b-45ab-abc0-2e1fdd063d67
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(½ƒôıÿÿÿÿ8ÆÎ±“ş1J$a18e35cd-2cdd-4fb1-93ed-00639e03613a
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(½ƒôıÿÿÿÿ8ÆÎ±“ş1J$45aace92-9c9d-4ddf-91f4-c439b0cd1bd6
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(®Ø‘™8ÆÎ±“ş1J$3af9ee17-b439-46fa-8a77-21e0d51bcc66
-~	java:S125?"<This block of commented-out lines of code should be removed.(Ù¡”Ú8ÓÎ±“ş1J$c289c4b2-f736-4560-9add-a2b49eab264b
-ƒ	java:S125Y"<This block of commented-out lines of code should be removed.(÷‡ú±øÿÿÿÿ8ÔÎ±“ş1J$4a6a0cfc-511b-44a0-8f3e-3e735c88e01c
-„	java:S125“"<This block of commented-out lines of code should be removed.(Ì¡•ñüÿÿÿÿ8àÎ±“ş1J$0d1e1c00-926d-4d9d-8394-3764698a50e7
-|
-java:S1128":Remove this unused import 'org.example.model.entity.Unit'.(›õ¶.8©ÎÇ”ş1J$8f81ba2a-248e-4f28-8ae9-85d404808ffd
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(®Ø‘™8ÆÎ±“ş1J$e7f0815f-ab23-40db-8a92-3dbb44e6508f
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(¶ó¿ìÿÿÿÿÿ8Ÿ†2J$0ddb7f70-cd74-47bf-8bec-5ea47388e4f4
+~	java:S125@"<This block of commented-out lines of code should be removed.(Ù¡”Ú8ÓÎ±“ş1J$7da81f9f-ab2b-454f-aa3a-507e2273c703
+ƒ	java:S125Z"<This block of commented-out lines of code should be removed.(÷‡ú±øÿÿÿÿ8ÔÎ±“ş1J$d556ce0b-410c-43e8-9816-b8fa6cf794a9
+ƒ
+java:S1161®":Add the "@Override" annotation above this method signature(Ê˜ûııÿÿÿÿ8ÉÅ†2J$61c3faf9-7cda-4738-a255-5c5bba1492a1

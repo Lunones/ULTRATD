@@ -32,7 +32,7 @@ public class AppController extends Controller implements Initializable {
         this.centerController.onOpen(data);
     }
 
-    public static void openModal(Scenes scenes, String s, Controller parent, Object o) throws IOException {
+    public void openModal(Scenes scenes, String s, Controller parent, Object o) throws IOException {
         View view = loadFXML(scenes);
         Stage stage = new Stage();
         stage.setTitle(s);
@@ -40,7 +40,7 @@ public class AppController extends Controller implements Initializable {
         stage.initOwner(App.stage);
         Scene _scene = new Scene(view.scene);
         stage.setScene(_scene);
-        view.controller.onOpen(parent);
+        view.controller.onOpen(o);
         stage.showAndWait();
     }
 

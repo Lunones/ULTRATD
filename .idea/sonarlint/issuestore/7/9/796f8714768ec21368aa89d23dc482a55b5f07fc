@@ -1,31 +1,33 @@
 
 Ê
-java:S26815"†This line will not be executed conditionally; only the first line of this 3-line block will be. The rest will execute unconditionally.(Ç§†½8ê¶´”ş1J$e769e803-a063-412b-ae5b-fe3bd39fbff8
+java:S26815"†This line will not be executed conditionally; only the first line of this 3-line block will be. The rest will execute unconditionally.(Ç§†½8ê¶´”ş1J$39b39b8a-edd2-4c17-ad2f-2078207b8164
 Œ
-java:S1192^"IDefine a constant instead of duplicating this literal "id_skill" 3 times.(±å‡¶8ì¶´”ş1J$2d38a581-cdc2-429b-ab59-32709fd678f5
+java:S1192^"IDefine a constant instead of duplicating this literal "id_skill" 4 times.(±å‡¶8ì¶´”ş1J$e9580827-8151-49c5-ad7a-ef2ef86da420
 ”
-java:S1192Z"LDefine a constant instead of duplicating this literal "description" 3 times.(™Á°¬üÿÿÿÿ8ì¶´”ş1J$970b7355-b4b4-4541-a5d6-38738039afae
+java:S1192Z"LDefine a constant instead of duplicating this literal "description" 4 times.(™Á°¬üÿÿÿÿ8ì¶´”ş1J$39abecd8-4e6e-469c-b6e9-a2046ddb71dc
 Š
-java:S1192_"HDefine a constant instead of duplicating this literal "id_user" 3 times.(³¯ 68ì¶´”ş1J$fd927f5c-edb2-4eb6-b77f-dc59998c4f56
+java:S1192_"HDefine a constant instead of duplicating this literal "id_user" 3 times.(³¯ 68ì¶´”ş1J$62acbd8e-c3f7-4554-8d59-f0eb9496e8f8
 Ê
-java:S1186¡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8í¶´”ş1J$ff4acbcf-fea1-4212-a12a-82b923039419
+java:S1186¹"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æÔ«÷şÿÿÿÿ8í¶´”ş1J$51960017-2a56-4d50-aff6-05a5dd6b6e6e
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¶Ïæøÿÿÿÿ8ï¶´”ş1J$b4eb246c-b1dd-479b-bbbe-9b2615feaa64
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¶Ïæøÿÿÿÿ8ï¶´”ş1J$434e3574-4db1-4d8e-8bb7-2b9571fa3300
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÚÃí8ï¶´”ş1J$350391e0-1479-4839-a6ae-376b85a1afa2
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÚÃí8ï¶´”ş1J$c6f1a8b2-8b39-40a8-ae29-714833ebd6b8
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(™ò¯•8ï¶´”ş1J$87c24bdc-9f4c-44e3-b582-67ff874b242d
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(™ò¯•8ï¶´”ş1J$94d28e36-ff95-45c8-9b14-cc8ca4662f2f
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¿Úú8ï¶´”ş1J$cc9923de-b832-40c5-91d8-d584baea3d9a
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(¿Úú8ï¶´”ş1J$f347081b-24dd-4a0a-9754-7a16723877a1
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(è¡ï¼8ï¶´”ş1J$a49b25bf-9f45-460b-ac7e-bc26e4ff095a
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(è¡ï¼8ï¶´”ş1J$1b1012dc-471f-4f4e-a4b8-5ce9d64418da
 ˆ
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Õè¦™8ï¶´”ş1J$024bc0ec-3289-4a4e-b6b5-0acb4624dafe
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Õè¦™8ï¶´”ş1J$b3c04139-4cdb-4596-957b-61c87712a8cc
 
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(æãê¡úÿÿÿÿ8ï¶´”ş1J$076842f1-97b3-44ea-92c9-0e193145c182
-o
-java:S1168"+Return an empty collection instead of null.(¥¹ï8ü¶´”ş1J$4dff1a99-7d84-4866-ae55-4419a1e4ed1c
-€
-java:S1128"=Remove this unused import 'org.example.model.entity.Faction'.(–ğôõ8õ¯¸¿ş1J$a2e11b15-2083-4609-bc7e-03ef4f619dbf
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(æãê¡úÿÿÿÿ8ï¶´”ş1J$83933e29-9570-446f-a169-10b729cb6131
+t
+java:S2695Ÿ"+This "PreparedStatement" has no parameters.(„¿‰«ÿÿÿÿÿ8‹¬†2J$dff1c74e-13f8-4fa5-8b87-ee0a622b1425
+I
+java:S1168µ"+Return an empty collection instead of null.(¥¹ï8ùö†2
+Z
+java:S1128"=Remove this unused import 'org.example.model.entity.Faction'.(–ğôõ8ûö†2
 n
-java:S1068"+Remove this unused "FINDALL" private field.(™ò¯•8ı¶´”ş1J$9096b012-fc12-42c7-a358-084a634e749f
+java:S1068"+Remove this unused "FINDALL" private field.(™ò¯•8ı¶´”ş1J$117f3756-59a1-4866-9dfa-ae86f5a09b15

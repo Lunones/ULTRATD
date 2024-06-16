@@ -5,11 +5,11 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
+import javafx.scene.input.MouseEvent;
 import org.example.App;
 import org.example.model.dao.UnitDAO;
 import org.example.model.dao.UserDAO;
@@ -43,6 +43,30 @@ public class TableUserController extends Controller implements Initializable {
 
         Id_faction.setCellValueFactory(User->
                 new SimpleStringProperty(User.getValue().getFaction().getName()));
+
+        TableViewUser.setRowFactory( User -> {
+            TableRow<User> row = new TableRow<>();
+            row.setOnMouseClicked(event -> {
+                if (event.getClickCount() == 2 && (! row.isEmpty()) ) {
+                    User rowData = row.getItem();
+                    int newun = rowData.getId();
+                    units = UnitDAO.build().findUnit(newun);
+                    System.out.println(rowData);
+                    try {
+                        if (units.getId() != 0) {
+                                App.currentController.openModal(Scenes.UNIT2, "Unit from User", this, units);
+                            } else {
+                                Alert alert = new Alert(Alert.AlertType.ERROR);
+                                alert.setContentText("This user does not have any unit");
+                                alert.show();
+                            }
+                        } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+            });
+            return row;
+        });
     }
 
     @Override
@@ -83,6 +107,8 @@ public class TableUserController extends Controller implements Initializable {
 
     @FXML
     private TableView<User> TableViewUser;
+
+    Unit units = new Unit();
 
     @FXML
     void Backbt(ActionEvent event) throws IOException {

@@ -13,6 +13,7 @@ public enum Scenes {
     SKILL("view/Skill.fxml"),
     SSKILL("view/SearchSkill.fxml"),
     UNIT("view/Units.fxml"),
+    UNIT2("view/Units2.fxml"),
     SUNIT("view/SearchUnit.fxml"),
     TFACT("view/TableFaction.fxml"),
     TUSER("view/TableUser.fxml"),

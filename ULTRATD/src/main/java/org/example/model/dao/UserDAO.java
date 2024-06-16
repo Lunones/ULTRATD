@@ -79,7 +79,7 @@ public class UserDAO implements DAO<User, String>{
             pst.setString(1,n);
             try(ResultSet res = pst.executeQuery()){
                 if(res.next()){
-                    User b = new User();
+                    User b = new UserLazy();
                     b.setId(res.getInt("id"));
                     b.setName(res.getString("name"));
                     b.setPassword(res.getString("password"));
@@ -117,7 +117,7 @@ public class UserDAO implements DAO<User, String>{
         try (PreparedStatement pst = conn.prepareStatement(FINDALLTABLE)) {
             try (ResultSet res = pst.executeQuery()) {
                 while (res.next()) {
-                    User us = new User();
+                    User us = new UserLazy();
                     us.setId(res.getInt("id"));
                     us.setName(res.getString("Name"));
                     us.setPassword(res.getString("Password"));
@@ -171,7 +171,7 @@ public class UserDAO implements DAO<User, String>{
 
 }
 class UserLazy extends User {
-    public List<Unit> getBooks(){
+    public List<Unit> getUnits(){
         if(super.getUnits()==null){
             setUnits(UnitDAO.build().findByUser(this));
         }

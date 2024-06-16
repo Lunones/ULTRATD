@@ -8,15 +8,12 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import org.example.App;
-import org.example.model.dao.FactionDAO;
 import org.example.model.dao.SkillDAO;
 import org.example.model.dao.UnitDAO;
 import org.example.model.dao.UserDAO;
-import org.example.model.entity.Faction;
 import org.example.model.entity.Skill;
 import org.example.model.entity.Unit;
 import org.example.model.entity.User;
-
 import java.io.IOException;
 import java.net.URL;
 import java.sql.SQLException;
