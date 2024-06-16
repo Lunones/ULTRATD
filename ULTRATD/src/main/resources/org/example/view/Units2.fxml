@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.view.UnitController2">
+   <children>
+      <Label layoutX="286.0" layoutY="41.0" text="UNITS" textFill="WHITE">
+         <font>
+            <Font name="VCR OSD Mono" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="Backbt" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#Backbt" prefHeight="27.0" prefWidth="58.0" text="BACK">
+         <font>
+            <Font name="VCR OSD Mono" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txtIDu" editable="false" layoutX="72.0" layoutY="151.0" prefHeight="26.0" prefWidth="79.0" promptText="ID" />
+      <TextField fx:id="txttype" layoutX="72.0" layoutY="260.0" prefHeight="26.0" prefWidth="88.0" promptText="Type" />
+      <TextField fx:id="txtatk" layoutX="312.0" layoutY="151.0" prefHeight="26.0" prefWidth="79.0" promptText="ATK" />
+      <TextField fx:id="txthp" layoutX="436.0" layoutY="151.0" prefHeight="26.0" prefWidth="79.0" promptText="HP" />
+      <TextField fx:id="txtdesc" layoutX="191.0" layoutY="151.0" prefHeight="26.0" prefWidth="79.0" promptText="Description" />
+      <TextField fx:id="txtskill" editable="false" layoutX="199.0" layoutY="260.0" prefHeight="26.0" prefWidth="142.0" />
+      <TextField fx:id="txtuser" editable="false" layoutX="381.0" layoutY="260.0" prefHeight="26.0" prefWidth="135.0">
+         <font>
+            <Font name="VCR OSD Mono" size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="106.0" layoutY="118.0" text="ID" textFill="WHITE">
+         <font>
+            <Font name="VCR OSD Mono" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="185.0" layoutY="118.0" text="Description" textFill="WHITE">
+         <font>
+            <Font name="VCR OSD Mono" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="338.0" layoutY="118.0" text="ATK" textFill="WHITE">
+         <font>
+            <Font name="VCR OSD Mono" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="468.0" layoutY="118.0" text="HP" textFill="WHITE">
+         <font>
+            <Font name="VCR OSD Mono" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="99.0" layoutY="226.0" text="Type" textFill="WHITE">
+         <font>
+            <Font name="VCR OSD Mono" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="435.0" layoutY="226.0" text="User" textFill="WHITE">
+         <font>
+            <Font name="VCR OSD Mono" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="258.0" layoutY="226.0" text="Skill" textFill="WHITE">
+         <font>
+            <Font name="VCR OSD Mono" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
